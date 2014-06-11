@@ -13,7 +13,14 @@ git checkout -b 'branchname'
 
 ^^ use this to checkout out a new branch replacing 'branchname' with some text, no "" necessary!
 
+I find the git bash is most useful for this since we're not on macs -_-
+
+Make sure to have the WAMP server installed and place the files under the www directory.
+
 <u>Helpful commands:</u>
+
+<b>git pull</b>
+--use this to update your branch, so if two people are working on same branch and one does a commit the other needs to do a pull to get the new changes.
 
 <b>git status</b>
 --checks what files you've modified, deleted, added
