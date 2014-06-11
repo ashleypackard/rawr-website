@@ -1,0 +1,105 @@
+#containerDiv
+{
+	width: 85%;
+	height: auto;
+	margin: 0 auto;
+	border: 2px solid white;
+	border-radius: 5px;
+	background-color: peru;
+	background: rgb(0, 0, 0); /* Fall-back for browsers that don't support rgba */
+	background: rgba(128, 128, 128, .8);
+	box-shadow: 5px 5px 5px black;
+	margin-top: 15px;
+}
+
+body
+{
+	background-image: url('../../assets/images/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#header
+{
+	text-align: center;
+	padding-top: 20px;
+}
+
+#header > h1
+{
+	font-family: 'Coming Soon', cursive;
+	color: white;
+	font-size: 35px;
+	display: inline;
+}
+
+#navBar
+{
+	height: auto;
+	width: auto;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+	font-size: 30px;
+	outline: 1px solid black;
+	margin: 20px;
+	border-radius: 5px;
+}
+
+#noBullets
+{
+	margin: 0;
+	padding-left: 15px;
+	list-style-type: none;
+}
+
+#noBullets li
+{
+	/*top right bottom left*/
+	padding: 15px 15px 15px 20px;	
+	display: inline;
+}
+
+
+#mainSection
+{
+	height: auto;
+	text-align: center;
+	width: auto;
+	padding-top: 25px;
+}
+
+#footer
+{
+	clear: both;
+	text-align: center;
+	font-size: .7em;
+}
+
+/* unvisited link */
+a:link 
+{
+	text-decoration: none;
+	color: darkblue;
+}
+
+/* visited link */
+a:visited 
+{
+	color: darkblue;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover 
+{
+	text-decoration: none;
+	text-shadow: 4px 3px 5px white;
+}
+
+/* selected link */
+a:active 
+{
+
+}
