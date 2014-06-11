@@ -3,7 +3,7 @@
 <head>
 	<title>R.A.W.R.</title>
 
-<link href='http://fonts.googleapis.com/css?family=Dosis|Permanent+Marker|Titillium+Web|Cuprum|Coming+Soon|Amatic+SC|Shadows+Into+Light+Two|Satisfy' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Coming+Soon|Amatic+SC' rel='stylesheet' type='text/css'>
 	
 	<link type="text/css" rel="stylesheet" href="../assets/stylesheets/layoutstyle.css"/>
 	<script language = "Javascript" type="text/Javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
