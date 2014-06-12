@@ -25,8 +25,8 @@
 			<a href="#" class="reloadDiv" id="about"><li>About</li></a>
 			<a href="#" class="reloadDiv" id="ourDinosaurs"><li>Our Dinosaurs</li></a>
 			<a href="#" class="reloadDiv" id="ourPhilosophy"><li>Our Philosophy</li></a>
-			<a href="#" class="reloadDiv" id="caring"><li>Caring for your Dinosaur Street</li></a>
-			<a href="#" class="reloadDiv" id="purchase"><li>Dinostore Store</li></a>
+			<a href="#" class="reloadDiv" id="caring"><li>Caring for your Dinosaur</li></a>
+			<a href="#" class="reloadDiv" id="purchase"><li>Dinosaur Store</li></a>
 		</ul>
 
 	</div>
