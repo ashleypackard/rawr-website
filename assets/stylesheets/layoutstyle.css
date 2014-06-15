@@ -103,3 +103,15 @@ a:active
 {
 
 }
+
+.picture {
+	height:100px;
+	width:100px;
+	align:center;
+	margin:10px;
+}
+.rows {
+	margin:1px;
+	display:inline;
+	float:left;
+}
