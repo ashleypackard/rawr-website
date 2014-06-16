@@ -1,0 +1,10 @@
+$(document).ready(function() { 
+	$('.reloadDiv').click(function()
+	{
+   	$("#mainSection").load($(this).attr('id')+".php");
+    return false;
+	});
+	$("#philosophy").mouseover(function(){$(this).css("overflow-y","scroll");});
+
+		
+});

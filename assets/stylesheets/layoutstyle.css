@@ -98,12 +98,6 @@ a:hover
 	text-shadow: 4px 3px 5px white;
 }
 
-/* selected link */
-a:active 
-{
-
-}
-
 .picture {
 	height:100px;
 	width:100px;
@@ -119,4 +113,78 @@ a:active
 #ourDinosaurs_div
 {
 	margin: 0 auto;
+}
+
+#header1
+{
+font-family: 'Amatic SC', cursive;
+font-weight: bold;
+color: white;
+font-size: 70px;
+border-style: ridge;
+border-color: white;
+margin: 20px;
+background: rgba(30, 200, 30, .2)
+}
+
+#header2
+{
+font-family: 'Amatic SC', cursive;
+font-weight: bold;
+font-size: 30px;
+color: white;
+margin: 20px;
+}
+
+#philosophy
+{
+overflow: hidden;
+font-family: 'Amatic SC', cursive;
+font-weight: bold;
+font-size: 20px;
+color: white;
+margin: 20px;
+background: rgba(30, 200, 30, .2);
+height: 200px;
+width: 900px;
+border: 2px solid;
+display: block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+
+
+#ourPhilosophy_div
+{
+	margin: 0 auto;
+position: relative;
+right: -17px;
+height: 400px;
+width: 974px;
+border-style: ridge;
+border-color: green;
+}
+
+
+#textpos
+{
+height: 200px;
+width: 500px;
+text-align: center;
+word-wrap: break-word;
+position: relative;
+right: -300px;
+}
+
+#img
+{
+position: absolute;
+z-index: 1;
+border-style: ridge;
+border-color: white;
+background: rgba(50, 50, 200, .1);
+right: 730px;
+top: 200px;
 }
