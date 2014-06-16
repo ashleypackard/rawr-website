@@ -4,7 +4,7 @@ echo "Here at R.A.W.R. we only offer herbivores. We have found that carnivores a
  are not good for families, and require a lot of feeding with expensive meat. However, carnivores are available
  upon special request.";
 
-print  '<div align="center">
+print  '<div id="ourDinosaurs_div" >
 			<div class="rows">
 				<img src="../assets/images/Barosaurus.jpg" alt="Barosaurus" class="picture"/></br>
 				<a id="btnBarosaurus" type="button" value="Barosaurus" align="center">Barosaurus</a>

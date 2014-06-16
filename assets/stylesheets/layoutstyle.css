@@ -115,3 +115,8 @@ a:active
 	display:inline;
 	float:left;
 }
+
+#ourDinosaurs_div
+{
+	margin: 0 auto;
+}
