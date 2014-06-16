@@ -1,11 +1,4 @@
-<?php
 
-print(
-
-
-
-
-"
 <div id='home_text_div'>
 <div id='slideshow'>
     <div id='slideshowWindow'>
@@ -60,9 +53,3 @@ print(
 </div>
 
 </div>
-
-
-"
-);
-
-?>

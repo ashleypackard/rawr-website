@@ -1,6 +1,4 @@
-<?php
 
-echo "
 <div id='about_div'>
 
 <h1>All About Re-established Archetypical Wiped-out Reptiles (RAWR)</h1>
@@ -25,9 +23,5 @@ are real and we do not offer any carnivorous dinosaurs or dinosaur eggs.  In fac
 in order for them to better understand Earth much before humans arrived. </p>
 
 <p>Just look at one patron who seems to be loving their new pets!!! <br/>
-<img src='../assets/images/boyAnddinosaurs.jpg' 'alt='boydino' height= 40% width= 40% />		
-<p></div>";
- ";
-
-
-?>
+<img src='../assets/images/boyAnddinosaurs.jpg' alt='boydino' height= 40% width= 40% />		
+<p></div>

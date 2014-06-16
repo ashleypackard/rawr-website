@@ -1,8 +1,6 @@
-<?php
 
-print '
 <div id = "ourPhilosophy_div">
-<img src="../assets/images/egg.jpg" alt="egg" height= 40% width= 20% id="img">
+<img src="../assets/images/egg.jpg" alt="egg" height= 20% width= 20% id="img">
 <div id = "header1">The philosohpy</div>
 <div id = "header2">Happy Eggs and Happy People</div>
 <div id = "philosophy">    
@@ -11,7 +9,7 @@ print '
 Please join us for a tour Friday through Thursday 10AM to 5PM, and we know that not only will you be delighted by the things we have
 in store for you, you will realize you want one of our adorable eggs as well!</p>
 
-<div id ="center"><img src="../assets/images/baby.jpg" alt="baby" height= 80% width= 80%></div>
+<div id ="center"><img src="../assets/images/baby.jpg" alt="baby"/></div>
 <b>Our Hatcheries</b>
 <br></br>
 <p>
@@ -25,6 +23,3 @@ its shell with your very own eyes. </p>
 
 </div>
 </div>
-'; 
-
-?>

@@ -1,7 +1,4 @@
-<?php
 
-print(
-"
 <div id='credit_div'>
 	<h2>Resources</h2>
 
@@ -24,7 +21,3 @@ print(
 </div>
 
 
-"	);
-
-
-?>

@@ -202,7 +202,7 @@ font-size: 20px;
 color: white;
 margin: 20px;
 background: rgba(30, 200, 30, .2);
-height: 200px;
+height: auto;
 width: 900px;
 border: 2px solid;
 display: block;
@@ -218,21 +218,26 @@ text-align: center;
 	margin: 0 auto;
 position: relative;
 right: -17px;
-height: 400px;
+height: auto;
 width: 974px;
-border-style: ridge;
-border-color: green;
+
+}
+#center > img
+{
+	height: 50%;
+	width: 50%;
 }
 
 
 #textpos
 {
-height: 200px;
+height: auto;
 width: 500px;
 text-align: center;
 word-wrap: break-word;
 position: relative;
 right: -300px;
+overflow-y: auto;
 }
 
 #img

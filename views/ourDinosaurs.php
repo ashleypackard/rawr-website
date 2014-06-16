@@ -1,10 +1,8 @@
-<?php
-
-echo "Here at R.A.W.R. we only offer herbivores. We have found that carnivores are much more aggressive,
+ <p>Here at R.A.W.R. we only offer herbivores. We have found that carnivores are much more aggressive,
  are not good for families, and require a lot of feeding with expensive meat. However, carnivores are available
- upon special request.";
+ upon special request.</p>
 
-print  '<div id="ourDinosaurs_div" >
+<div id="ourDinosaurs_div" >
 			<div class="rows">
 				<img src="../assets/images/Barosaurus.jpg" alt="Barosaurus" class="picture"/></br>
 				<a id="btnBarosaurus" type="button" value="Barosaurus" align="center">Barosaurus</a>
@@ -33,5 +31,4 @@ print  '<div id="ourDinosaurs_div" >
 				<img src="../assets/images/minmi.jpg" alt="Minmi" class="picture"/></br>
 				<a id="btnMinmi" type="button" value="Minmi" align="center">Minmi</a>
 			</div>
-		</div>';
-?>
+		</div>

@@ -1,8 +1,5 @@
-<?php
 
-echo "
 
-<<<<<<< HEAD
 <div id='caring_div'>
 <h1>How To Care For Your Dinosaur!</h1>
 
@@ -16,7 +13,7 @@ Also, let your dinosaur eat some rocks when it wants to; these rocks help grind 
 system left over from eating roots and twigs.  Again, based on your purchase we will help you to know your <br/>
 specific dinosaur's needs. <br/>
 <figure>
-<img src='../assets/images/eating.jpg' 'alt='boydino' height= 20% width= 20% />
+<img src='../assets/images/eating.jpg' alt='boydino' height= 20% width= 20% />
 <figcaption>One of our dinosaurs eating from a tree</figcaption>
 </figure>
 </p>
@@ -27,7 +24,7 @@ they are in danger.  You can use our super strength leashes to control your new 
 you can expect your dinosaur to eat much of the wild plants along the way.  When our professionals walk our dinosaurs <br/>
 they use plant packs to lead the dinosaurs on a walk. <br/>
 <figure>
-<img src='../assets/images/walking.jpg' 'alt='boydino' height= 40% width= 40% />
+<img src='../assets/images/walking.jpg' alt='boydino' height= 40% width= 40% />
 <figcaption>One of our clients walking his dinosaur</figcaption>
 </figure>
 </p>
@@ -38,11 +35,8 @@ rather than get rinsed off.  Also, the warmer the area you live in the better!  
 dinosaurs need mud to cool off as well.  If you do not live in a hot area with plenty of rain, taking care of <br/>
 your dinosaur will be more difficult. <br/>
 <figure>
-<img src='../assets/images/washing.jpg' 'alt='boydino' height= 30% width= 30% />
+<img src='../assets/images/washing.jpg' alt='boydino' height= 30% width= 30% />
 <figcaption>One of our dinosaurs going for a swim </figcaption>
 </figure>
 </p>
 </div>
-";
-
-?>
