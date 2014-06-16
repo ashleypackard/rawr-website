@@ -1,5 +1,5 @@
 <?php
 
-echo "Hey this is some text";
+echo "Hey, James was here.";
 
 ?>
