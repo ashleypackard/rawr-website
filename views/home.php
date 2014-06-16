@@ -6,9 +6,9 @@
 <link href='http://fonts.googleapis.com/css?family=Coming+Soon|Amatic+SC' rel='stylesheet' type='text/css'>
 	
 	<link type="text/css" rel="stylesheet" href="../assets/stylesheets/layoutstyle.css"/>
-	<script language = "Javascript" type="text/Javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-	<script language = "Javascript" type="text/Javascript" src="../assets/scripts/home_script"></script>
-
+	<script language = "Javascript" type="text/Javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script language = "Javascript" type="text/Javascript" src="../assets/scripts/slideshow.js"></script>
+	<script language = "Javascript" type="text/Javascript" src="../assets/scripts/home_script.js"></script>
 
 </head>
 	<body>
@@ -38,7 +38,9 @@
 			</div>
 
 			<div id = "footer">
-				<p>&copy; Comp 553 | Ashley Packard &amp; Rob Nordberg &amp; James Astbury &amp; Janelle Flaherty | 2014</p>
+				<div>
+					<p id="footerp">&copy; Comp 553 | Ashley Packard &amp; Rob Nordberg &amp; James Astbury &amp; Janelle Flaherty | 2014 | <a href="#" id="credit" class="reloadDiv">Resources</a></p>
+				</div>
 			</div>
 
 		</div>

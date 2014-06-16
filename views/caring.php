@@ -2,7 +2,8 @@
 
 echo "
 
-
+<<<<<<< HEAD
+<div id='caring_div'>
 <h1>How To Care For Your Dinosaur!</h1>
 
 
@@ -41,6 +42,7 @@ your dinosaur will be more difficult. <br/>
 <figcaption>One of our dinosaurs going for a swim </figcaption>
 </figure>
 </p>
+</div>
 ";
 
 ?>
