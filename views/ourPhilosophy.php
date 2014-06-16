@@ -7,7 +7,7 @@ print '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <script language = "Javascript" type="text/Javascript" src="../assets/scripts/home_script"></script>
 </head> 
 <body>';
-print '<form action=”lab 5 lab05.php” method="post"> 
+print '<form action=”dinos” method="post"> 
 <div id = "happy">
 <div id = "header1">The philosohpy</div>
 <div id = "header2">Happy Eggs and Happy People</div>
@@ -27,8 +27,6 @@ its shell with your very own eyes. </p>
 <a href="www.someurl.com" class="" id="link">Read more about hatching your own dinosaur here!</a>
 </div>
 </div>
-
-
  </form>'; 
 print '</body>
 </html>';
