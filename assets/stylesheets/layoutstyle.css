@@ -70,7 +70,78 @@ body
 	padding-top: 25px;
 }
 
-#footer
+#header1
+{
+font-family: 'Amatic SC', cursive;
+font-weight: bold;
+color: white;
+font-size: 70px;
+border-style: ridge;
+border-color: white;
+margin: 20px;
+background: rgba(30, 200, 30, .2)
+}
+
+#header2
+{
+font-family: 'Amatic SC', cursive;
+font-weight: bold;
+font-size: 30px;
+color: white;
+margin: 20px;
+}
+
+#center
+{
+
+}
+
+#philosophy
+{
+overflow: hidden;
+font-family: 'Amatic SC', cursive;
+font-weight: bold;
+font-size: 20px;
+color: white;
+margin: 20px;
+background: rgba(30, 200, 30, .2);
+height: 200px;
+width: 900px;
+border: 2px solid;
+display: block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+
+
+#happy
+{
+position: relative;
+right: -17px;
+height: 400px;
+width: 974px;
+border-style: ridge;
+border-color: green;
+background: rgba(50, 50, 200, .1)
+
+}
+
+#test{
+height: 500px;
+width: 100px;
+background-color: blue;
+}
+
+#head{
+position: relative;
+top: -80px;
+font-family: Franklin Gothic Medium;
+font-size: 80px;
+}
+
+#footer 
 {
 	clear: both;
 	text-align: center;
