@@ -91,11 +91,6 @@ color: white;
 margin: 20px;
 }
 
-#center
-{
-
-}
-
 #philosophy
 {
 overflow: hidden;
@@ -128,12 +123,6 @@ background: rgba(50, 50, 200, .1)
 
 }
 
-#test{
-height: 500px;
-width: 100px;
-background-color: blue;
-}
-
 #head{
 position: relative;
 top: -80px;
@@ -146,6 +135,27 @@ font-size: 80px;
 	clear: both;
 	text-align: center;
 	font-size: .7em;
+}
+
+#textpos
+{
+height: 200px;
+width: 500px;
+text-align: center;
+word-wrap: break-word;
+position: relative;
+right: -300px;
+}
+
+#img
+{
+position: absolute;
+z-index: 1;
+border-style: ridge;
+border-color: white;
+background: rgba(50, 50, 200, .1);
+right: 730px;
+top: 200px;
 }
 
 /* unvisited link */
