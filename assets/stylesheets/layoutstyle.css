@@ -9,7 +9,7 @@
 	background: rgb(0, 0, 0); /* Fall-back for browsers that don't support rgba */
 	background: rgba(128, 128, 128, .8);
 	box-shadow: 5px 5px 5px black;
-	margin-top: 15px;
+	margin-top: 17px;
 }
 
 body
@@ -64,10 +64,12 @@ body
 
 #mainSection
 {
-	height: auto;
+	height: 500px;
 	text-align: center;
 	width: auto;
 	padding-top: 25px;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 
 #footer
@@ -75,8 +77,23 @@ body
 	clear: both;
 	text-align: center;
 	font-size: .7em;
+	width: 75%;
+	margin: 0 auto;
 }
 
+#footer > div
+{
+		padding-top: 25px;
+
+}
+
+#footerp
+{
+	border-top: 2px solid black;
+	padding-top: 8px;
+}
+
+/* LINKS */
 /* unvisited link */
 a:link 
 {
@@ -97,9 +114,97 @@ a:hover
 	text-decoration: none;
 	text-shadow: 4px 3px 5px white;
 }
+/* END LINKS */
 
-/* selected link */
-a:active 
+
+/* home_text_div css */
+#slideshow
 {
-
+		float: left;	
 }
+
+#home_text_div
+{
+	overflow-y: auto;
+	overflow-x: hidden;
+	line-height: 30px;
+}
+
+#slideshow #slideshowWindow {
+	width:470px;
+	margin-left: 10%;
+	padding:0;
+	position:relative;
+	overflow:hidden;
+}
+
+#slideshow #slideshowWindow .slide {
+	margin:0;
+	padding:0;
+	width:470px; 
+	float:left;
+	position:relative;
+}
+
+#slideshowText
+{
+	float: right;
+	width: 50%;
+	margin-left: 100px;
+	margin-right: 75px;
+}
+
+#slideshowText > p
+{
+	text-align: left;
+}
+
+#credit_div
+{
+	font-size: .8em;
+	width: 50%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#credit_div > h2
+{
+	text-align: center;
+}
+
+#middle-right
+{
+	float: right;
+	margin-right: -150px;
+	margin-top: 50px;
+}
+
+#middle
+{
+	margin: 0 auto;
+	clear: both;
+	width: 90%;
+	border-top: 2px solid black;
+}
+
+#middle-left
+{
+	text-align: left;
+}
+/* END home_text_div css */
+
+/* Webkit Scrollbars */
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.8); 
+}
+/* END Webkit Scrollbars */
