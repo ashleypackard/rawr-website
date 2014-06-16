@@ -111,16 +111,15 @@ text-align: center;
 
 
 
-#happy
+#ourPhilosophy_div
 {
+	margin: 0 auto;
 position: relative;
 right: -17px;
 height: 400px;
 width: 974px;
 border-style: ridge;
 border-color: green;
-background: rgba(50, 50, 200, .1)
-
 }
 
 #head{

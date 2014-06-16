@@ -1,14 +1,7 @@
 <?php
-print '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-<head>
-<title> ourPhilosophy </title>
-<link rel="stylesheet" href=""../assets/stylesheets/layoutstyle.css"">
-<script language = "Javascript" type="text/Javascript" src="../assets/scripts/home_script"></script>
-</head> 
-<body>';
-print '<form action=”dinos” method="post"> 
-<div id = "happy">
+
+print '
+<div id = "ourPhilosophy_div">
 <img src="../assets/images/egg.jpg" alt="egg" height= 40% width= 20% id="img">
 <div id = "header1">The philosohpy</div>
 <div id = "header2">Happy Eggs and Happy People</div>
@@ -32,7 +25,6 @@ its shell with your very own eyes. </p>
 
 </div>
 </div>
- </form>'; 
-print '</body>
-</html>';
+'; 
+
 ?>
