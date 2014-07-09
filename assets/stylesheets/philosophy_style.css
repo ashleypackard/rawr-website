@@ -1,0 +1,58 @@
+/* philo css */
+
+#philosophy
+{
+overflow: hidden;
+font-family: 'Amatic SC', cursive;
+font-weight: bold;
+font-size: 20px;
+color: white;
+margin: 20px;
+background: rgba(30, 200, 30, .2);
+height: auto;
+width: 900px;
+border: 2px solid;
+display: block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+
+#ourPhilosophy_div
+{
+	margin: 0 auto;
+position: relative;
+right: -17px;
+height: auto;
+width: 974px;
+
+}
+#center > img
+{
+	height: 50%;
+	width: 50%;
+}
+
+
+#textpos
+{
+height: auto;
+width: 500px;
+text-align: center;
+word-wrap: break-word;
+position: relative;
+right: -300px;
+overflow-y: auto;
+}
+
+#img
+{
+position: absolute;
+z-index: 1;
+border-style: ridge;
+border-color: white;
+background: rgba(50, 50, 200, .1);
+right: 730px;
+top: 200px;
+}

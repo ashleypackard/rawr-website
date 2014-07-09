@@ -1,0 +1,26 @@
+/* our_dinos css */
+#ourDinosaurs_div
+{
+	margin: 0 auto;
+}
+
+#header1
+{
+font-family: 'Amatic SC', cursive;
+font-weight: bold;
+color: white;
+font-size: 70px;
+border-style: ridge;
+border-color: white;
+margin: 20px;
+background: rgba(30, 200, 30, .2)
+}
+
+#header2
+{
+font-family: 'Amatic SC', cursive;
+font-weight: bold;
+font-size: 30px;
+color: white;
+margin: 20px;
+}
