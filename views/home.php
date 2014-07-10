@@ -19,6 +19,7 @@
 		<link type="text/css" rel="stylesheet" href="../assets/stylesheets/home_text_style.css"/>
 		<link type="text/css" rel="stylesheet" href="../assets/stylesheets/philosophy_style.css"/>
 		<link type="text/css" rel="stylesheet" href="../assets/stylesheets/our_dinos_style.css"/>
+		<link type="text/css" rel="stylesheet" href="../assets/stylesheets/caring_style.css"/>
 		<script language = "Javascript" type="text/Javascript" src="../assets/scripts/home_script.js"></script>
 
 	</head>

@@ -1,7 +1,7 @@
 	<div class="row" id="row1-div">
 
 		<!--Boostrap Carousel-->
-		<div id="carousel-dino" class="carousel slide col-md-5" data-ride="carousel" data-interval=4500 data-pause="hover" data-wrap=true>
+		<div id="carousel-dino" class="carousel slide col-md-5" data-ride="carousel" data-interval=2500 data-pause="hover" data-wrap=true>
 	  <!-- Indicators -->
 	  <ol class="carousel-indicators">
 	    <li data-target="#carousel-dino" data-slide-to="0" class="active"></li>

@@ -1,26 +1,52 @@
 /* our_dinos css */
+
+.tab-dino-pic img
+{
+	width: 50%;
+	height: 50%;
+}
+
+.tab-dino-pic
+{
+	padding-top: 25px;
+}
+
+.ourdinoTable th
+{
+	text-align: center;
+}
+
+.description
+{
+	text-align: right;
+	padding-left: 25px;
+}
+
+.answers
+{
+	text-align: left;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.ourdinoTable
+{
+	border: 2px dashed white;
+	margin-top: 25px;
+}
+
+.bottomTR
+{
+	padding-bottom: 25px;
+}
+
+.last
+{
+	padding-bottom: 20px;
+}
+
 #ourDinosaurs_div
 {
-	margin: 0 auto;
-}
-
-#header1
-{
-font-family: 'Amatic SC', cursive;
-font-weight: bold;
-color: white;
-font-size: 70px;
-border-style: ridge;
-border-color: white;
-margin: 20px;
-background: rgba(30, 200, 30, .2)
-}
-
-#header2
-{
-font-family: 'Amatic SC', cursive;
-font-weight: bold;
-font-size: 30px;
-color: white;
-margin: 20px;
+	padding-left: 150px;
+	padding-right: 150px;
 }

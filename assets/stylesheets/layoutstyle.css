@@ -1,7 +1,6 @@
 #containerDiv
 {
 	width: 85%;
-	height: auto;
 	margin: 0 auto;
 	border: 2px solid white;
 	border-radius: 5px;
@@ -10,14 +9,18 @@
 	background: rgba(128, 128, 128, .8);
 	box-shadow: 5px 5px 5px black;
 	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 body
 {
-	background-image: url('../../assets/images/bg.jpg');
+	background-image: url('../../assets/images/website_bg.jpg');
+	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 11pt;
+	color: black;
 }
 
 #header
@@ -36,8 +39,6 @@ body
 
 #navBar
 {
-	height: auto;
-	width: auto;
 	text-align: center;
 	font-family: 'Amatic SC', cursive;
 	font-weight: bold;
@@ -65,7 +66,8 @@ body
 #mainSection
 {
 	text-align: center;
-	width: auto;
+	width: 90%;
+	margin: 0 auto;
 	padding-top: 25px;
 	overflow-x: hidden;
 	overflow-y: auto;
@@ -88,7 +90,7 @@ body
 
 #footerp
 {
-	border-top: 2px solid black;
+	border-top: 2px inset darkgrey;
 	padding-top: 8px;
 }
 

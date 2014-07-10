@@ -16,6 +16,36 @@
     1px 1px 0 gold; 
 }
 
+#middle
+{
+	margin: 0 auto;
+	border-top: 2px solid black;
+}
+
+#middle-left
+{
+	text-align: left;
+	padding-top: 25px;
+}
+
+#middle-right
+{
+	padding-top: 25px;
+}
+
+#row1-div
+{
+		margin: 0 auto;
+}
+#row1-div
+{
+	margin-bottom: 25px;
+	padding-left: 25px;
+	padding-right: 25px
+}
+/* END home_text_div css */
+
+/* credit_div css */
 #credit_div
 {
 	font-size: .8em;
@@ -29,31 +59,8 @@
 	text-align: center;
 }
 
-
-#middle
+#resources
 {
-	margin: 0 auto;
-	width: 90%;
-	border-top: 2px solid black;
+	text-align: center;
 }
-
-#middle-left
-{
-	text-align: left;
-	padding-top: 25px;
-	margin: 0 auto;
-}
-
-#middle-right
-{
-	padding-top: 25px;
-	margin: 0 auto;
-}
-
-#row1-div
-{
-	margin-bottom: 25px;
-	padding-left: 25px;
-	padding-right: 25px
-}
-/* END home_text_div css */
+/* END credit_div css */
