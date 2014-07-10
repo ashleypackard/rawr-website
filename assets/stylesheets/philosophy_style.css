@@ -1,0 +1,65 @@
+/* philo css */
+
+#philosophy
+{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 11pt;
+	color: white;
+	background: rgba(30, 200, 30, .2);
+	border: 2px solid white;
+	text-align: center;
+}
+
+#plainEggs > img
+{
+	border: 2px solid black;
+	margin-top: 25px;
+}
+
+#ourHatch
+{
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+}
+
+#center > img
+{
+	height: 75%;
+	width: 75%;
+	border: 2px solid black;
+}
+
+#textpos
+{
+	padding-top: 25px;
+	padding-right: 25px;
+}
+
+
+#philoTitle
+{
+	border: 2px ridge white;
+	background: rgba(30, 200, 30, .2);
+}
+
+#philoTitle h1
+{
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+	color: white;
+	font-size: 70px;
+}
+
+#philoStatement
+{
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+	margin: 20px;
+}
+
+#bottomRow
+{
+	padding: 25px;
+}
