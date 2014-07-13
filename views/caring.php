@@ -20,7 +20,7 @@
 		</div>
 		<div class="col-md-6">
 			<figure>
-			<img src='../assets/images/eating.jpg' alt='boydino' style="height: 40%; width: 40%;" />
+			<img src='../assets/images/caring-about/eating.jpg' alt='boydino' style="height: 40%; width: 40%;" />
 			<figcaption>One of our dinosaurs eating from a tree</figcaption>
 			</figure>
 		</div>
@@ -29,7 +29,7 @@
 	<div class="row">
 		<div class="col-md-6">
 			<figure>
-			<img src='../assets/images/walking.jpg' alt='boydino' style="height: 50%; width: 50%;" />
+			<img src='../assets/images/caring-about/walking.jpg' alt='boydino' style="height: 50%; width: 50%;" />
 			<figcaption>One of our clients walking his dinosaur</figcaption>
 			</figure>
 		</div>
@@ -55,7 +55,7 @@
 		</div>
 		<div class="col-md-6">
 			<figure>
-			<img src='../assets/images/washing.jpg' alt='boydino' style="height:50%; width: 50%;" />
+			<img src='../assets/images/caring-about/washing.jpg' alt='boydino' style="height:50%; width: 50%;" />
 			<figcaption>One of our dinosaurs going for a swim </figcaption>
 			</figure>
 		</div>

@@ -12,19 +12,19 @@
 	  <!-- Wrapper for slides -->
 	  <div class="carousel-inner">
 	    <div class="item active">
-	      <img src="../assets/images/dinosaur_river_small.jpg" alt="Our dinosaurs in their natural habitat">
+	      <img src="../assets/images/home/dinosaur_river_small.jpg" alt="Our dinosaurs in their natural habitat">
 	      <div class="carousel-caption">
 	        Explore our massive indoor dinosaur habitat
 	      </div>
 	    </div>
 	    <div class="item">
-	      <img src="../assets/images/eggs_hatching.jpg" alt="Little Hatchlings">
+	      <img src="../assets/images/home/eggs_hatching.jpg" alt="Little Hatchlings">
 	      <div class="carousel-caption">
 	        Dinosaurs waiting for adoption in the hatchery
 	      </div>
 	    </div>
 	   <div class="item">
-	      <img src="../assets/images/inside_small.jpg" alt="A dinosaur on a walk">
+	      <img src="../assets/images/home/inside_small.jpg" alt="A dinosaur on a walk">
 	      <div class="carousel-caption">
 	        Our dinosaurs don't get HUGE, so you can take them anywhere
 	      </div>
@@ -50,15 +50,11 @@
 			<h2>Bring the Mesozoic Era to your home!</h2>
 
 			<p>
-
 				Using the latest scientific advancements, technology, and the tiniest sliver of dinosaur DNA found by our own archeologists, the scientists at RAWR were able to unlock the secrets of the dinosaurs. We have successfully cloned every dinosaur DNA imaginable and you can bring one home today! 
-
 			</p>
 
 			<p>
-
 					Here at RAWR we believe every child should experience the unique opportunity to own their very own dinosaur and so we mutated the genes of our dinosaurs to weed out aggressivesness. In our store you can purchase whole kits for hatching any egg you desire. If you're not into the hatching process we can hatch it for you and all you have to do is come pick it up. Make a trip out of it and spend time at our resort and spa to relax and bond with your new little addition to the family.
-
 			</p>
 
 		</div>
@@ -75,7 +71,7 @@
 		</div>
 
 		<div id='middle-right' class="col-md-7">
-			<img src='../assets/images/scientist.jpg' alt='RAWR Scientist analyzing DNA' height=65% width=65%/>
+			<img src='../assets/images/home/scientist.jpg' alt='RAWR Scientist analyzing DNA' height=65% width=65%/>
 		</div>
 
 	</div>

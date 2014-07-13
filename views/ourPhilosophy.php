@@ -13,7 +13,7 @@
 <div id = "philosophy">
 	<div class="row">
 		<div class="col-md-5" id="plainEggs">
-		<img src="../assets/images/egg.jpg" alt="egg">
+		<img src="../assets/images/philo/egg.jpg" alt="egg">
 		</div>
 		<div id = "textpos" class="col-md-7">
 			<p>Here at R.A.W.R, we are truly committed to the happiness of both our customers, and, our dinosaurs.
@@ -31,7 +31,7 @@
 			<a href="www.someurl.com" class="" id="link">Read more about hatching your own dinosaur here!</a>
 		</div>
 		<div id ="center" class="col-md-5">
-				<img src="../assets/images/baby.jpg" alt="baby"/>
+				<img src="../assets/images/philo/baby.jpg" alt="baby"/>
 		</div>
 	</div>
 </div>

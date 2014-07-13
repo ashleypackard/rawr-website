@@ -27,7 +27,7 @@
 	<body>
 		<div id = "containerDiv" class="container">
 			<div id = "header" class="row">	
-				<img src="../assets/images/mascot.png" alt="Dinosaur" height= 10% width= 10%  class="col-md-2"/>		
+				<img src="../assets/images/home/mascot.png" alt="Dinosaur" height= 10% width= 10%  class="col-md-2"/>		
 				<h1 class="col-md-10">R.A.W.R. - Re-established Archetypical Wiped-out Reptiles </h1>
 			</div>
 			

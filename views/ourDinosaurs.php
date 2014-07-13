@@ -59,8 +59,7 @@
 		  			</tbody>
 		  		</table>
 		  	</div>
-		  </div>
-
+		</div>
 		  <div class="tab-pane" id="diceratops">
 		  	<div class="tab-dino-pic col-md-7">
 		  		<img src="../assets/images/diceratops.jpg" alt="Diceratops"/>
