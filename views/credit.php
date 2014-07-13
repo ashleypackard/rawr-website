@@ -12,7 +12,13 @@
 			<li>http://www.jplegacy.org/jpencyclopedia/?p=6791</li>
 			<li>http://sweetclipart.com/tyrannosaurus-rex-dinosaur-1088</li>
 			<li>http://blog.smu.edu/research/2011/02/17/gender-gap-selection-bias-snubs-scholarly-achievements-of-female-scientists-with-fewer-awards-for-research/</li>
-
+			<li>http://www.kidsdinos.com/dinosaurs-for-children.php?dinosaur=Barosaurus</li>
+			<li>http://prehistoricsillustrated.com/site/index.php?page=galleries&type=image&id=semihtmlh2_110&wide=1</li>
+			<li>http://jurassicpark.wikia.com/wiki/File:03-erketu.jpg</li>
+			<li>http://www.dinosaurfact.net/jurassic/Giraffatitan.php</li>
+			<li>http://www.dinosaurfact.net/jurassic/Laosaurus.php</li>
+			<li>http://paleoexhibit.blogspot.com/2011/04/introducing-manidens-condorensis-new.html</li>
+			<li>http://australianmuseum.net.au/Minmi-paravertebra</li>
 		</ul>
 
 	</div>
