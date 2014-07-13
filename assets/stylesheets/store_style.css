@@ -52,19 +52,19 @@ td, th
 	padding: 5px;
 }
 
-#eggKitsTable
+.storeItemTables
 {
 	text-align: center;
 }
 
-.eggKitLabels
+.tableLabelsForStore
 {
 	font-weight: bold;
 }
 
-#eggKitBottomRow > td
+.tableLowerRow > td
 {
-	padding-top: 45px;
+	padding-top: 15px;
 }
 
 .eggBasketPic
@@ -77,4 +77,15 @@ td, th
 .basketHeaders
 {
 	text-align: center;
+}
+
+#not-included
+{
+	font-size: 10px;
+}
+
+.quantityBoxes > td
+{
+	padding-bottom: 25px;
+	border-bottom: 2px outset darkgrey;
 }

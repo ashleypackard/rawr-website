@@ -19,6 +19,23 @@
 			<li>http://www.chicagoreader.com/imager/b/magnum/4331683/ab70/Key-Ingredient-007_magnum.jpg</li>
 			<li>http://media-cache-ak0.pinimg.com/236x/01/55/69/01556910cfb86aa4ee2da7ab08183e9d.jpg</li>
 			<li>http://ana-white.com/sites/default/files/3154814787_1308798902.jpg</li>
+			<li>http://www.touristinformationcentres.net/webshop/images/webshop/205/product/large/Oval-Faux-Suede-Softee-Dog-Beds.jpg</li>
+			<li>http://allthecreatures.org/wp-content/uploads/DogBed.jpg</li>
+			<li>http://kongdogbed.com/wp-content/uploads/2013/09/luxury-dog-beds-for-sale.jpg</li>
+			<li>http://allthecreatures.org/wp-content/uploads/dog_bed.jpg</li>
+			<li>http://www.petmountain.com/photos/product/giant/114420S524724/dog-bolsters-loungers/aspen-pet-sofa-bed-with-bonus-pillow.jpg</li>
+			<li>http://st.houzz.com/simgs/5b6169c80150d11e_4-0912/traditional-pet-beds.jpg</li>
+			<li>http://st.houzz.com/simgs/6d8120c20066213f_4-0465/traditional-pet-beds.jpg</li>
+			<li>http://cdn.shopify.com/s/files/1/0155/5001/products/Benny_Basics_Bed_2_1024x1024.jpg?v=1398194973</li>
+			<li>http://ineedthat.corecommerce.com/images/products/989.jpg</li>
+			<li>http://www.bosman.ca/siteImages/Gazebo10x_wood_Sq.jpg</li>
+			<li>http://www.buckeyebuildings.com/gazebos/pav_1.jpg</li>
+			<li>http://www.westernredcedarpergolas.com/images/682_LGjobFinal_017.jpg</li>
+			<li>http://hgtv.sndimg.com/HGTV/2005/10/19/cohen_DSC7341.jpg</li>
+			<li>http://upload.wikimedia.org/wikipedia/commons/c/cd/Shed.jpg</li>
+			<li>http://media.treehugger.com/assets/images/2011/10/moderno-shed.jpg</li>
+			<li>http://st.houzz.com/simgs/dc81cffd03050e30_4-0245/contemporary-sheds.jpg</li>
+			<li>http://3.bp.blogspot.com/-Zgj3O3w9mJ8/UZBd_KgoF5I/AAAAAAAAAkc/36F-9J7bVII/s1600/DSCN4171.JPG</li>
 
 		</ul>
 
