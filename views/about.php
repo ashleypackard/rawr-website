@@ -23,7 +23,7 @@
 		in order for them to better understand Earth much before humans arrived. </p>
 
 		<p>Just look at one patron who seems to be loving their new pets!!! <br/>
-			<img src='../assets/images/boyAnddinosaurs.jpg' alt='boydino' height= 40% width= 40% />		
+			<img src='../assets/images/caring-about/boyAnddinosaurs.jpg' alt='boydino' height= 40% width= 40% />		
 		<p>
 	</div>
 </div>
