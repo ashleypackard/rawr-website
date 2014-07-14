@@ -54,7 +54,7 @@
 		  				</tr>
 		  				<tr>
 		  					<td class="description last">Color Patterns:</td>
-		  					<td class="answers last">Brown or army green</td>
+		  					<td class="answers last">Brown or Army green</td>
 		  				</tr>
 		  			</tbody>
 		  		</table>
@@ -77,7 +77,7 @@
 		  				</tr>
 		  				<tr>
 		  					<td class="description">Average Weight:</td>
-		  					<td class="answers">2,300-3,500</td>
+		  					<td class="answers">2,300-3,500 lbs</td>
 		  				</tr>
 		  				<tr>
 		  					<td class="description">Diet:</td>
@@ -93,7 +93,7 @@
 		  				</tr>
 		  				<tr>
 		  					<td class="description last">Color Patterns:</td>
-		  					<td class="answers last">Gray, green, and light brown</td>
+		  					<td class="answers last">Gray, Green, and Light Brown</td>
 		  				</tr>
 		  			</tbody>
 		  		</table>
@@ -213,7 +213,7 @@
 		  				</tr>
 		  				<tr>
 		  					<td class="description last">Color Patterns:</td>
-		  					<td class="answers last">Tan and brown</td>
+		  					<td class="answers last">Tan and Brown</td>
 		  				</tr>
 		  			</tbody>
 		  		</table>
@@ -253,7 +253,7 @@
 		  				</tr>
 		  				<tr>
 		  					<td class="description last">Color Patterns:</td>
-		  					<td class="answers last">Brown with dark stripes</td>
+		  					<td class="answers last">Brown with Dark Stripes</td>
 		  				</tr>
 		  			</tbody>
 		  		</table>
@@ -293,7 +293,7 @@
 		  				</tr>
 		  				<tr>
 		  					<td class="description last">Color Patterns:</td>
-		  					<td class="answers last">Gray and tan</td>
+		  					<td class="answers last">Gray and Tan</td>
 		  				</tr>
 		  			</tbody>
 		  		</table>
