@@ -1,0 +1,73 @@
+/* our_dinos css */
+
+.tab-dino-pic img
+{
+	width: 50%;
+	height: 50%;
+}
+
+.tab-dino-pic
+{
+	padding-top: 25px;
+}
+
+.ourdinoTable th
+{
+	text-align: center;
+}
+
+.description
+{
+	text-align: right;
+	padding-left: 25px;
+}
+
+.answers
+{
+	text-align: left;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.ourdinoTable
+{
+	border: 2px dashed white;
+	margin-top: 25px;
+}
+
+.bottomTR
+{
+	padding-bottom: 25px;
+}
+
+.last
+{
+	padding-bottom: 20px;
+}
+
+#ourDinosaurs_div
+{
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+.nav-tabs > li 
+{
+  float:none;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+  zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs
+{
+  text-align:center;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus
+{
+	color: white;
+	background-color: navy;
+	text-shadow: none;
+	font-weight: bold;
+}
