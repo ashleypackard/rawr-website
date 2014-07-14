@@ -1,7 +1,6 @@
 #containerDiv
 {
 	width: 85%;
-	height: auto;
 	margin: 0 auto;
 	border: 2px solid white;
 	border-radius: 5px;
@@ -9,15 +8,19 @@
 	background: rgb(0, 0, 0); /* Fall-back for browsers that don't support rgba */
 	background: rgba(128, 128, 128, .8);
 	box-shadow: 5px 5px 5px black;
-	margin-top: 17px;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 body
 {
-	background-image: url('../../assets/images/bg.jpg');
+	background-image: url('../../assets/images/website_bg.jpg');
+	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 11pt;
+	color: black;
 }
 
 #header
@@ -36,8 +39,6 @@ body
 
 #navBar
 {
-	height: auto;
-	width: auto;
 	text-align: center;
 	font-family: 'Amatic SC', cursive;
 	font-weight: bold;
@@ -64,9 +65,9 @@ body
 
 #mainSection
 {
-	height: 500px;
 	text-align: center;
-	width: auto;
+	width: 90%;
+	margin: 0 auto;
 	padding-top: 25px;
 	overflow-x: hidden;
 	overflow-y: auto;
@@ -89,7 +90,7 @@ body
 
 #footerp
 {
-	border-top: 2px solid black;
+	border-top: 2px inset darkgrey;
 	padding-top: 8px;
 }
 
@@ -116,179 +117,6 @@ a:hover
 }
 /* END LINKS */
 
-
-/* home_text_div css */
-#slideshow
-{
-		float: left;	
-}
-
-#home_text_div
-{
-	overflow-y: auto;
-	overflow-x: hidden;
-	line-height: 30px;
-}
-
-#slideshow #slideshowWindow {
-	width:470px;
-	margin-left: 10%;
-	padding:0;
-	position:relative;
-	overflow:hidden;
-}
-
-#slideshow #slideshowWindow .slide {
-	margin:0;
-	padding:0;
-	width:470px; 
-	float:left;
-	position:relative;
-}
-
-#slideshowText
-{
-	float: right;
-	width: 50%;
-	margin-left: 100px;
-	margin-right: 75px;
-}
-
-
-.picture {
-	height:100px;
-	width:100px;
-	align:center;
-	margin:10px;
-}
-.rows {
-	margin:1px;
-	display:inline;
-	float:left;
-}
-
-#ourDinosaurs_div
-{
-	margin: 0 auto;
-}
-
-#header1
-{
-font-family: 'Amatic SC', cursive;
-font-weight: bold;
-color: white;
-font-size: 70px;
-border-style: ridge;
-border-color: white;
-margin: 20px;
-background: rgba(30, 200, 30, .2)
-}
-
-#header2
-{
-font-family: 'Amatic SC', cursive;
-font-weight: bold;
-font-size: 30px;
-color: white;
-margin: 20px;
-}
-
-#philosophy
-{
-overflow: hidden;
-font-family: 'Amatic SC', cursive;
-font-weight: bold;
-font-size: 20px;
-color: white;
-margin: 20px;
-background: rgba(30, 200, 30, .2);
-height: auto;
-width: 900px;
-border: 2px solid;
-display: block;
-margin-left: auto;
-margin-right: auto;
-text-align: center;
-}
-
-
-
-#ourPhilosophy_div
-{
-	margin: 0 auto;
-position: relative;
-right: -17px;
-height: auto;
-width: 974px;
-
-}
-#center > img
-{
-	height: 50%;
-	width: 50%;
-}
-
-
-#textpos
-{
-height: auto;
-width: 500px;
-text-align: center;
-word-wrap: break-word;
-position: relative;
-right: -300px;
-overflow-y: auto;
-}
-
-#img
-{
-position: absolute;
-z-index: 1;
-border-style: ridge;
-border-color: white;
-background: rgba(50, 50, 200, .1);
-right: 730px;
-top: 200px;
-}
-
-#slideshowText > p
-{
-	text-align: left;
-}
-
-#credit_div
-{
-	font-size: .8em;
-	width: 50%;
-	margin: 0 auto;
-	text-align: left;
-}
-
-#credit_div > h2
-{
-	text-align: center;
-}
-
-#middle-right
-{
-	float: right;
-	margin-right: -150px;
-	margin-top: 50px;
-}
-
-#middle
-{
-	margin: 0 auto;
-	clear: both;
-	width: 90%;
-	border-top: 2px solid black;
-}
-
-#middle-left
-{
-	text-align: left;
-}
-/* END home_text_div css */
 
 /* Webkit Scrollbars */
 ::-webkit-scrollbar {
