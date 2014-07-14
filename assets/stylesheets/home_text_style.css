@@ -1,0 +1,66 @@
+/* home_text + credit pages css */
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.carousel-caption
+{
+	font-size: 20px;
+	font-weight: bold;
+	color: black  ;
+	    text-shadow:
+    -1px -1px 0 gold,
+    1px -1px 0 gold,
+    -1px 1px 0 gold,
+    1px 1px 0 gold; 
+}
+
+#middle
+{
+	margin: 0 auto;
+	border-top: 2px solid black;
+}
+
+#middle-left
+{
+	text-align: left;
+	padding-top: 25px;
+}
+
+#middle-right
+{
+	padding-top: 25px;
+}
+
+#row1-div
+{
+		margin: 0 auto;
+}
+#row1-div
+{
+	margin-bottom: 25px;
+	padding-left: 25px;
+	padding-right: 25px
+}
+/* END home_text_div css */
+
+/* credit_div css */
+#credit_div
+{
+	font-size: .8em;
+	width: 50%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#credit_div > h2
+{
+	text-align: center;
+}
+
+#resources
+{
+	text-align: center;
+}
+/* END credit_div css */
