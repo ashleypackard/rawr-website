@@ -26,7 +26,14 @@ $(document).ready(function() {
   		nameOfItem = nameOfItem.replace(/-/g, ' ');
 
   		var itemID = $(this).attr('id');
-  		var money = itemID.substring(8);
+		if (itemID.substring(0,8) == "adoption")
+		{
+			var money = itemID.substring(9);
+		}
+		else
+		{
+			var money = itemID.substring(8);
+		}
   		var quantity = $(this).val();
   		var total =  (parseFloat(money) * parseFloat(quantity)).toFixed(2);
   		var found = false;
@@ -61,7 +68,7 @@ $(document).ready(function() {
 				{
 					var htmltoadd = "<tr class='removable'><td class='itemname'>" + nameOfItem + "</td><td>$" + money + 
 					 "</td><td>" + quantity + "</td><td class='itemincart'>$" + total + "</td></tr>";
-				
+
 	  			$("#storeBasket tbody").prepend(htmltoadd);
 				}
 			}
@@ -112,4 +119,9 @@ function calctotal()
 
 	total = total.toFixed(2);
 	return total;
+};
+
+function goToStore()
+{
+	$("#mainSection").load("purchase.php");
 };

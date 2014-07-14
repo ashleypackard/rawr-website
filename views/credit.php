@@ -12,6 +12,13 @@
 			<li>http://www.jplegacy.org/jpencyclopedia/?p=6791</li>
 			<li>http://sweetclipart.com/tyrannosaurus-rex-dinosaur-1088</li>
 			<li>http://blog.smu.edu/research/2011/02/17/gender-gap-selection-bias-snubs-scholarly-achievements-of-female-scientists-with-fewer-awards-for-research/</li>
+			<li>http://www.kidsdinos.com/dinosaurs-for-children.php?dinosaur=Barosaurus</li>
+			<li>http://prehistoricsillustrated.com/site/index.php?page=galleries&type=image&id=semihtmlh2_110&wide=1</li>
+			<li>http://jurassicpark.wikia.com/wiki/File:03-erketu.jpg</li>
+			<li>http://www.dinosaurfact.net/jurassic/Giraffatitan.php</li>
+			<li>http://www.dinosaurfact.net/jurassic/Laosaurus.php</li>
+			<li>http://paleoexhibit.blogspot.com/2011/04/introducing-manidens-condorensis-new.html</li>
+			<li>http://australianmuseum.net.au/Minmi-paravertebra</li>
 			<li>http://incubatorwarehouse.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/g/e/genesisanglewht_2.jpg
 			</li>
 			<li>http://i1.squidoocdn.com/resize/squidoo_images/400/draft_lens19027496module156118496photo_1325483376pet_adoption_certificate</li>
@@ -36,7 +43,6 @@
 			<li>http://media.treehugger.com/assets/images/2011/10/moderno-shed.jpg</li>
 			<li>http://st.houzz.com/simgs/dc81cffd03050e30_4-0245/contemporary-sheds.jpg</li>
 			<li>http://3.bp.blogspot.com/-Zgj3O3w9mJ8/UZBd_KgoF5I/AAAAAAAAAkc/36F-9J7bVII/s1600/DSCN4171.JPG</li>
-
 		</ul>
 
 	</div>

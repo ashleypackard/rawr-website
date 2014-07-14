@@ -23,66 +23,62 @@
 		<div class="tab-content">
 		  <div class="tab-pane active" id="adoption">
 		  	<div class="col-md-12">
-		  		<h1>Adoption - James</h1>
-		  		<p>Blah</p>
-		  	</div>
+				<table class="storeItemTables">
+		  				<tbody>
+		  					<tr>
+		  						<td><img src="../assets/images/our-dinos/Barosaurus.jpg" width="160px" height="140px" alt="Barosaurus"/></td>
+		  						<td><img src="../assets/images/our-dinos/diceratops.jpg" width="160px" height="140px"/></td>
+		  						<td><img src="../assets/images/our-dinos/erketu.jpg" width="160px" height="140px"/></td>
+		  						<td><img src="../assets/images/our-dinos/giraffatitan.jpg" width="160px" height="140px"/></td>
+		  					</tr>
+		  					<tr class="tableLabelsForStore">
+		  						<td>Barosaurus</td>
+		  						<td>Diceratops</td>
+		  						<td>Erketu</td>
+		  						<td>Giraffatitan</td>
+		  					</tr>
+		  					<tr>
+		  						<td>Price: $1499.00</td>
+		  						<td>Price: $1200.00</td>
+		  						<td>Price: $1350.00</td>
+		  						<td>Price: $1624.99</td>
+		  					</tr>
+		  					<tr class="quantityBoxes">
+		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Barosaurus" id="adoption-1499" /></td>
+		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Diceratops" id="adoption-1200" /></td>
+		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Erketu" id="adoption-1350" /></td>
+		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Giraffatitan" id="adoption-1624.99" /></td>
+		  					</tr>
+
+		  					<tr class="tableLowerRow">
+		  						<td><img src="../assets/images/our-dinos/laosaurus.jpg" width="160px" height="140px"/></td>
+		  						<td><img src="../assets/images/our-dinos/manidens.jpg" width="160px" height="140px"/></td>
+		  						<td><img src="../assets/images/our-dinos/minmi.jpg" width="160px" height="140px"/></td>
+		  					</tr>
+		  					<tr class="tableLabelsForStore">
+		  						<td>Laosaurus</td>
+		  						<td>Manidens</td>
+		  						<td>Minmi</td>
+		  					</tr>
+		  					<tr>
+		  						<td>Price: $900.00</td>
+		  						<td>Price: $305.00</td>
+		  						<td>Price: $649.99</td>
+		  					</tr>
+		  					<tr>
+		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Laosaurus" id="adoption-900" /></td>
+		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Manidens" id="adoption-305" /></td>
+		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Minmi" id="adoption-649.99" /></td>
+		  					</tr>
+		  				</tbody>
+		  			</table>
+				</div>
 		  </div>
 
 		  <div class="tab-pane" id="eggKits">
 		  	<div class="col-md-12">
 		  		<h3>Egg Kits</h3>
-		  		<div>
-		  			<p>Each of our egg kits comes with an egg, incubator, adoption certificate, and our starter food package.</p>
-		  			<table class="storeItemTables">
-		  				<tbody>
-		  					<tr>
-		  						<td><img src="../assets/images/store/eggkits/dino1-eggBasket.png" class="eggBasketPic"/></td>
-		  						<td><img src="../assets/images/store/eggkits/dino7-eggBasket.png" class="eggBasketPic"/></td>
-		  						<td><img src="../assets/images/store/eggkits/dino3-eggBasket.png" class="eggBasketPic"/></td>
-		  						<td><img src="../assets/images/store/eggkits/dino4-eggBasket.png" class="eggBasketPic"/></td>
-		  					</tr>
-		  					<tr class="tableLabelsForStore">
-		  						<td>Barosaurus Egg Kit</td>
-		  						<td>Biceratops Egg Kit</td>
-		  						<td>Erketu Egg Kit</td>
-		  						<td>Giraffatitan Egg Kit</td>
-		  					</tr>
-		  					<tr>
-		  						<td>Price: $325.00</td>
-		  						<td>Price: $275.00</td>
-		  						<td>Price: $282.00</td>
-		  						<td>Price: $300.00</td>
-		  					</tr>
-		  					<tr class="quantityBoxes">
-		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Barosaurus-Egg-Kit" id="eggKits-325" /></td>
-		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Biceratops-Egg-Kit" id="eggKits-275" /></td>
-		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Erketu-Egg-Kit" id="eggKits-282" /></td>
-		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Giraffatitan-Egg-Kit" id="eggKits-300" /></td>
-		  					</tr>
 
-		  					<tr class="tableLowerRow">
-		  						<td><img src="../assets/images/store/eggkits/dino5-eggBasket.png" class="eggBasketPic"/></td>
-		  						<td><img src="../assets/images/store/eggkits/dino2-eggBasket.png" class="eggBasketPic"/></td>
-		  						<td><img src="../assets/images/store/eggkits/dino6-eggBasket.png" class="eggBasketPic"/></td>
-		  					</tr>
-		  					<tr class="tableLabelsForStore">
-		  						<td>Laosaurus Egg Kit</td>
-		  						<td>Manidens Egg Kit</td>
-		  						<td>Minmi Egg Kit</td>
-		  					</tr>
-		  					<tr>
-		  						<td>Price: $410.00</td>
-		  						<td>Price: $299.00</td>
-		  						<td>Price: $389.00</td>
-		  					</tr>
-		  					<tr>
-		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Laosaurus-Egg-Kit" id="eggKits-410" /></td>
-		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Manidens-Egg-Kit" id="eggKits-299" /></td>
-		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Minmi-Egg-Kit" id="eggKits-389" /></td>
-		  					</tr>
-		  				</tbody>
-		  			</table>
-		  		</div>
 		  	</div>
 		  </div>
 
@@ -99,7 +95,7 @@
 		  		<p>Blah</p>
 		  	</div>
 		  </div>
-		
+
 		  <div class="tab-pane" id="toys">
 		  	<div class="col-md-12">
 		  		<h1>Toys - Janelle</h1>
