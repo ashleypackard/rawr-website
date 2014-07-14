@@ -75,16 +75,72 @@
 				</div>
 		  </div>
 
-		  <div class="tab-pane" id="eggKits">
-		  	<div class="col-md-12">
-		  		<h3>Egg Kits</h3>
-		  	</div>
-		  </div> 
+			<div class="tab-pane" id="eggKits">
+				<div class="col-md-12">
+					<h3>Egg Kits</h3>
+					<div>
+						<p>Each of our egg kits comes with an egg, incubator, adoption certificate, and our starter food package.</p>
+						<table class="storeItemTables">
+							<tbody>
+								<tr>
+									<td><img src="../assets/images/store/eggkits/dino1-eggBasket.png" class="eggBasketPic"/></td>
+									<td><img src="../assets/images/store/eggkits/dino7-eggBasket.png" class="eggBasketPic"/></td>
+									<td><img src="../assets/images/store/eggkits/dino3-eggBasket.png" class="eggBasketPic"/></td>
+									<td><img src="../assets/images/store/eggkits/dino4-eggBasket.png" class="eggBasketPic"/></td>
+								</tr>
+								<tr class="tableLabelsForStore">
+									<td>Barosaurus Egg Kit</td>
+									<td>Biceratops Egg Kit</td>
+									<td>Erketu Egg Kit</td>
+									<td>Giraffatitan Egg Kit</td>
+								</tr>
+								<tr>
+									<td>Price: $325.00</td>
+									<td>Price: $275.00</td>
+									<td>Price: $282.00</td>
+									<td>Price: $300.00</td>
+								</tr>
+								<tr class="quantityBoxes">
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Barosaurus-Egg-Kit" id="eggKits-325" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Biceratops-Egg-Kit" id="eggKits-275" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Erketu-Egg-Kit" id="eggKits-282" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Giraffatitan-Egg-Kit" id="eggKits-300" /></td>
+								</tr>
+
+								<tr class="tableLowerRow">
+									<td><img src="../assets/images/store/eggkits/dino5-eggBasket.png" class="eggBasketPic"/></td>
+									<td><img src="../assets/images/store/eggkits/dino2-eggBasket.png" class="eggBasketPic"/></td>
+									<td><img src="../assets/images/store/eggkits/dino6-eggBasket.png" class="eggBasketPic"/></td>
+								</tr>
+								<tr class="tableLabelsForStore">
+									<td>Laosaurus Egg Kit</td>
+									<td>Manidens Egg Kit</td>
+									<td>Minmi Egg Kit</td>
+								</tr>
+								<tr>
+									<td>Price: $410.00</td>
+									<td>Price: $299.00</td>
+									<td>Price: $389.00</td>
+								</tr>
+								<tr>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Laosaurus-Egg-Kit" id="eggKits-410" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Manidens-Egg-Kit" id="eggKits-299" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Minmi-Egg-Kit" id="eggKits-389" /></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+
+
+		  <div class="tab-pane" id="accessories">
+
 		  	<div class="row">
 				<div class="col-md-12">
 					<h1>Accessories</h1>
 				</div>
-				
+
 				<div class="col-md-4">
 					<p>
 						<figure>
@@ -96,7 +152,7 @@
 					<b>Quantity:</b> <input type="number" min="0" name="leash" id="accessories-19.99" class="addToBasket">
 					</p>
 				</div>
-				
+
 				<div class="col-md-4">
 					<p>
 						<figure>
@@ -120,7 +176,7 @@
 					</p>
 				</div>
 			</div>
-			
+
 			<div class="row">
 				<div class="col-md-4">
 					<p>
@@ -133,7 +189,7 @@
 					<b>Quantity:</b> <input type="number" min="0" name="fence" id="accessories-74.99" class="addToBasket">
 					</p>
 				</div>
-				
+
 				<div class="col-md-4">
 					<p>
 						<figure>
@@ -145,7 +201,7 @@
 					<b>Quantity:</b> <input type="number" min="0" name="cleaner" id="accessories-479.99" class="addToBasket">
 					</p>
 				</div>
-			
+
 				<div class="col-md-4">
 					<p>
 						<figure>
@@ -159,10 +215,10 @@
 			</div>
 		  </div>
 
+
 		  <div class="tab-pane" id="nutrition">
 		  	<div class="col-md-12">
 		  		<h1>Nutrition</h1>
-				<h3>To add an item to your basket, simple enter a quantity in the space below it. When you are done, hit "Add To Cart" at the bottom of the page.</h3>
 		  		 <div class="row">
 				 <h2>Dinosaur Treats</h2>
 				 <p>Treats should be given sparingly, but one should indulge their dino none the less!</p>
@@ -212,14 +268,12 @@
 				   <div class="col-md-2"></div>
 				 </div>
 				 </div>
-				 <button class = 'button' id="addtocart"> Add To Cart </button>
 		  	</div>
 		  </div>
 		
 		  <div class="tab-pane" id="toys">
 		  	<div class="col-md-12">
 		  		<h1>Toys</h1>
-				<h3>To add an item to your basket, simple enter a quantity in the space below it. When you are done, hit "Add To Cart", at the bottom of the page.</h3>
 		  		 <div class="row">
 				 <h2>Teeth health</h2>
 				 <p>Get a chew toy to prevent chewing damage to home furniture!</p>
@@ -256,7 +310,6 @@
 				   <div class="col-md-2"></div>
 				 </div>
 				 </div>
-				 <button class = 'button' id="addtocart"> Add To Cart </button>
 		  	</div>
 		  </div>
 
@@ -418,5 +471,5 @@
 
 
 <script>
- $.getScript( "../assets/scripts/home_script.js" );
+ $.getScript( "../assets/scripts/home_script.js");
 </script>

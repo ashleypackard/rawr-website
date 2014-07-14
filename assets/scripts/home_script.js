@@ -78,7 +78,7 @@ $(document).ready(function() {
  			$("#totalPrice").html("$" + subtotal);
 
  		}
-		else // no fish in cart
+		else // no items in cart
   	{
 			$("#noItems").show();
 

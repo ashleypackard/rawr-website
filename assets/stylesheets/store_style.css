@@ -95,7 +95,9 @@ td, th
 	width: 100%;
 	height: 100%;
 }
-#picture {
+
+#picture
+{
     width:80px;
 	height:80px;
     
