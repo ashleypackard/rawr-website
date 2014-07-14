@@ -113,7 +113,7 @@
 		  		<div>
 		  			<p>Our quality bedding items range from your classic bed to luxury items, to even outside bedding. Outside bedding includes gazebos and sheds custom built for your dinosaur's size and strength. Items with writing can be customized for free with your pet's name. The bedding comes in a variety of colors as well!</p>
 		  			<p id="not-included">*Additional items show in pictures not included.</p>
-		  			<table class="storeItemTables">
+		  			<table class="storeItemTables" id="storeBeddingTable">
 		  				<tbody>
 		  					<tr>
 		  						<td><img src="../assets/images/store/bedding/classic-bed.png" class="beddingPic-tall"/></td>
