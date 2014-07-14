@@ -26,7 +26,14 @@ $(document).ready(function() {
   		nameOfItem = nameOfItem.replace(/-/g, ' ');
 
   		var itemID = $(this).attr('id');
-  		var money = itemID.substring(8);
+		if (itemID.substring(0,8) == "adoption")
+		{
+			var money = itemID.substring(9);
+		}
+		else
+		{
+			var money = itemID.substring(8);
+		}
   		var quantity = $(this).val();
   		var total =  (parseFloat(money) * parseFloat(quantity)).toFixed(2);
   		var found = false;
