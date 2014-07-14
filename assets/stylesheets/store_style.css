@@ -4,4 +4,94 @@
 {
 	padding-left: 150px;
 	padding-right: 150px;
+	margin-bottom: 25px;
+}
+
+#checkoutLane
+{
+	border: 2px dashed white;
+}
+
+.storeLabel
+{
+	color: darkgreen;
+	text-shadow:
+    -2px -2px black,
+    1px -1px black,
+    -1px 1px black,
+    1px 1px black; 
+}
+
+#dinoStore
+{
+	font-size: 4em;
+}
+
+#storeBasket
+{
+	display: none;
+}
+
+#totalCol > td:first-child
+{
+	text-align: right;
+}
+
+#totalPrice
+{
+	text-align: left;
+}
+
+#totalCol
+{
+	color: white;
+}
+
+td, th
+{
+	padding: 5px;
+}
+
+.storeItemTables
+{
+	text-align: center;
+}
+
+.tableLabelsForStore
+{
+	font-weight: bold;
+}
+
+.tableLowerRow > td
+{
+	padding-top: 15px;
+}
+
+.eggBasketPic
+{
+	border: 1px solid black;
+	width: 80%;
+	height: 70%;
+}
+
+.basketHeaders
+{
+	text-align: center;
+}
+
+#not-included
+{
+	font-size: 10px;
+}
+
+.quantityBoxes > td
+{
+	padding-bottom: 25px;
+	border-bottom: 2px outset darkgrey;
+}
+
+#storeBeddingTable img
+{
+	width: 100%;
+	height: 100%;
 }

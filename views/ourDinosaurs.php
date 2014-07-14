@@ -23,7 +23,7 @@
 		<div class="tab-content">
 		  <div class="tab-pane active" id="barosaurus">
 		  	<div class="tab-dino-pic col-md-7">
-		  		<img src="../assets/images/Barosaurus.jpg" alt="Barosaurus"/>
+		  		<img src="../assets/images/our-dinos/Barosaurus.jpg" alt="Barosaurus"/>
 		  	</div>
 		  	<div class="col-md-5">
 		  		<table class="ourdinoTable">
@@ -62,7 +62,7 @@
 
 		  <div class="tab-pane" id="biceratops">
 		  	<div class="tab-dino-pic col-md-7">
-		  		<img src="../assets/images/diceratops.jpg" alt="Biceratops"/>
+		  		<img src="../assets/images/our-dinos/diceratops.jpg" alt="Biceratops"/>
 		  	</div>
 		  	<div class="col-md-5">
 		  		<table class="ourdinoTable">
@@ -101,7 +101,7 @@
 		  
 		  <div class="tab-pane" id="erketu">
 		  	<div class="tab-dino-pic col-md-7">
-		  		<img src="../assets/images/erketu.jpg" alt="Erketu"/>
+		  		<img src="../assets/images/our-dinos/erketu.jpg" alt="Erketu"/>
 		  	</div>
 		  	<div class="col-md-5">
 		  		<table class="ourdinoTable">
@@ -140,7 +140,7 @@
 		  
 		  <div class="tab-pane" id="giraffatitan">		  	
 		  	<div class="tab-dino-pic col-md-7">
-					<img src="../assets/images/giraffatitan.jpg" alt="Giraffatitan"/>
+					<img src="../assets/images/our-dinos/giraffatitan.jpg" alt="Giraffatitan"/>
 				</div>
 				<div class="col-md-5">
 		  		<table class="ourdinoTable">
@@ -179,7 +179,7 @@
 		  
 		  <div class="tab-pane" id="laosaurus">
 		  	<div class="tab-dino-pic col-md-7">
-					<img src="../assets/images/laosaurus.jpg" alt="Laosaurus"/>
+					<img src="../assets/images/our-dinos/laosaurus.jpg" alt="Laosaurus"/>
 				</div>
 				<div class="col-md-5">
 		  		<table class="ourdinoTable">
@@ -218,7 +218,7 @@
 		  
 		  <div class="tab-pane" id="manidens">
 		  	<div class="tab-dino-pic col-md-7">
-		  		<img src="../assets/images/manidens.jpg" alt="Manidens"/>
+		  		<img src="../assets/images/our-dinos/manidens.jpg" alt="Manidens"/>
 		  	</div>
 		  	<div class="col-md-5">
 		  		<table class="ourdinoTable">
@@ -257,7 +257,7 @@
 		  
 		  <div class="tab-pane" id="minmi">
 		  	<div class="tab-dino-pic col-md-7">
-		  		<img src="../assets/images/minmi.jpg" alt="Minmi"/>
+		  		<img src="../assets/images/our-dinos/minmi.jpg" alt="Minmi"/>
 		  	</div>
 		  	<div class="col-md-5">
 		  		<table class="ourdinoTable">
