@@ -26,14 +26,9 @@ $(document).ready(function() {
   		nameOfItem = nameOfItem.replace(/-/g, ' ');
 
   		var itemID = $(this).attr('id');
-		if (itemID.substring(0,8) == "adoption")
-		{
-			var money = itemID.substring(9);
-		}
-		else
-		{
-			var money = itemID.substring(8);
-		}
+  		
+			var money = itemID.substr(itemID.indexOf("-") + 1);
+		
   		var quantity = $(this).val();
   		var total =  (parseFloat(money) * parseFloat(quantity)).toFixed(2);
   		var found = false;
@@ -92,6 +87,27 @@ $(document).ready(function() {
   	
 	});
 
+
+		$.ajax({ 
+					url: '../assets/scripts/getQuantities.php',
+	        data: $(this).serialize(),
+	        type: 'post',
+	        dataType: 'json',
+	        success: function(data) {
+	            console.log(data);
+
+	            if(data.success)
+	            {
+	            	alert("Thank you for submitting.");
+	            	document.getElementById('donutShopForm').reset();
+	            }
+	        },
+	        error: function(){
+	        	alert("You fail at life.");
+	        }
+			});
+
+		});
 
 });
 

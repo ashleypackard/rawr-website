@@ -84,7 +84,7 @@ td, th
 	font-size: 10px;
 }
 
-.quantityBoxes > td
+.bottomLine > td
 {
 	padding-bottom: 25px;
 	border-bottom: 2px outset darkgrey;
@@ -98,7 +98,6 @@ td, th
 
 #picture
 {
-    width:80px;
-	height:80px;
-    
+  width:80px;
+	height:80px;  
 }

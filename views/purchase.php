@@ -134,46 +134,47 @@
 			</div>
 
 
-		  <div class="tab-pane" id="accessories">
+		 <!--  <div class="tab-pane" id="accessories">
 
 		  	<div class="row">
 				<div class="col-md-12">
 					<h1>Accessories</h1>
 				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<p>
+							<figure>
+								<img src='../assets/images/dinosaur_leash.jpg' alt='dinoleash' style="height:50%; width: 50%;" />
+							</figure>
+						</p>
+						<p>Our one size fits all leashes are great for taking any of our dinosaurs for a walk!
+						Our leashes are only $19.99 each.<br>
+						<b>Quantity:</b> <input type="number" min="0" name="leash" id="accessories-19.99" class="addToBasket">
+						</p>
+					</div>
 
-				<div class="col-md-4">
-					<p>
-						<figure>
-							<img src='../assets/images/dinosaur_leash.jpg' alt='dinoleash' style="height:50%; width: 50%;" />
-						</figure>
-					</p>
-					<p>Our one size fits all leashes are great for taking any of our dinosaurs for a walk!
-					Our leashes are only $19.99 each.<br>
-					<b>Quantity:</b> <input type="number" min="0" name="leash" id="accessories-19.99" class="addToBasket">
-					</p>
-				</div>
-
-				<div class="col-md-4">
-					<p>
-						<figure>
-							<img src='../assets/images/dino_sign.jpg' alt='sign' style="height:50%; width: 50%;" />
-						</figure>
-					</p>
-					<p>Be careful that strangers don't try to ride your dinosaur!  Each sign is only $4.99. <br>
-					<b>Quantity:</b> <input type="number" min="0" name="sign" id="accessories-4.99" class="addToBasket">
-					</p>
-				</div>
-				
-				<div class="col-md-4">
-					<p>
-						<figure>
-							<img src='../assets/images/heat_lamp.jpg' alt='lamp' style="height:50%; width: 50%;" />
-						</figure>
-					</p>
-					<p>If you live in an area that can reach freezing temperatures you'll need some heat lamps for your dinosaur.
-					Each heat lamp is $29.99.<br>
-					<b>Quantity:</b> <input type="number" min="0" name="lamp" id="accessories-29.99" class="addToBasket">
-					</p>
+					<div class="col-md-4">
+						<p>
+							<figure>
+								<img src='../assets/images/dino_sign.jpg' alt='sign' style="height:50%; width: 50%;" />
+							</figure>
+						</p>
+						<p>Be careful that strangers don't try to ride your dinosaur!  Each sign is only $4.99. <br>
+						<b>Quantity:</b> <input type="number" min="0" name="sign" id="accessories-4.99" class="addToBasket">
+						</p>
+					</div>
+					
+					<div class="col-md-4">
+						<p>
+							<figure>
+								<img src='../assets/images/heat_lamp.jpg' alt='lamp' style="height:50%; width: 50%;" />
+							</figure>
+						</p>
+						<p>If you live in an area that can reach freezing temperatures you'll need some heat lamps for your dinosaur.
+						Each heat lamp is $29.99.<br>
+						<b>Quantity:</b> <input type="number" min="0" name="lamp" id="accessories-29.99" class="addToBasket">
+						</p>
+					</div>
 				</div>
 			</div>
 
@@ -311,7 +312,7 @@
 				 </div>
 				 </div>
 		  	</div>
-		  </div>
+		  </div> -->
 
 		  <div class="tab-pane" id="bedding">
 		  	<div class="col-md-12">
@@ -339,11 +340,17 @@
 		  						<td>Price: $15.99</td>
 		  						<td>Price: $21.99</td>
 		  					</tr>
-		  					<tr class="quantityBoxes">
+		  					<tr>
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Classic-Bed" id="bedding-11.99" /></td>
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Soft-Round-Bed" id="bedding-12.99" /></td>
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Classic-Square-Bed" id="bedding-15.99" /></td>
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Sofa-Bed" id="bedding-21.99" /></td>
+		  					</tr>
+		  					<tr class="stock bottomLine">
+		  						<td><p id="classic-bed-stoc"</p></td>
+		  						<td><p id="soft-round-bed-stoc"</p></td>
+		  						<td><p id="classic-square-bed-stoc"</p></td>
+		  						<td><p id="sofa-bed-stoc"</p></td>
 		  					</tr>
 
 		  					<tr class="tableLowerRow">
@@ -364,7 +371,7 @@
 		  						<td>Price: $39.99</td>
 		  						<td>Price: $44.99</td>
 		  					</tr>
-		  					<tr class="quantityBoxes">
+		  					<tr class="bottomLine">
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Soft-Bed-w/Customized-Name" id="bedding-29.99" /></td>
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Wooden-Bed-w/Customized-Name" id="bedding-34.99" /></td>
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Couch-Bed" id="bedding-39.99" /></td>
@@ -389,7 +396,7 @@
 		  						<td>Price: $125.99</td>
 		  						<td>Price: $169.99</td>
 		  					</tr>
-		  					<tr class="quantityBoxes">
+		  					<tr class="bottomLine">
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Woodden-Mini-Bed" id="bedding-49.99" /></td>
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Ultra-Posh-Bed" id="bedding-59.99" /></td>
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Wodden-Pergola" id="bedding-125.99" /></td>
@@ -414,7 +421,7 @@
 		  						<td>Price: $274.99</td>
 		  						<td>Price: $299.99</td>
 		  					</tr>
-		  					<tr class="quantityBoxes">
+		  					<tr class="bottomLine">
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Basic-Gazebo" id="bedding-199.99" /></td>
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Sqaure-Gazebo" id="bedding-224.99" /></td>
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Enclosed-Gazebo" id="bedding-274.99" /></td>
