@@ -49,6 +49,8 @@
 			<li>https://www.google.com/search?q=dinosaur+chew+toys&tbm=isch&source=lnms&sa=X&ei=tBbDU8HaO8GwyASQh4DABw&ved=0CAYQ_AUoAQ&biw=1538&bih=796#facrc=_&imgdii=asNCpr5yvoQpkM%3A%3B95LtAifIu0OHGM%3BasNCpr5yvoQpkM%3A&imgrc=asNCpr5yvoQpkM%253A%3BlpWxbm6AkObYnM%3Bhttp%253A%252F%252Fecx.images-amazon.com%252Fimages%252FI%252F31dyuI311FL._SX300_.jpg%3Bhttp%253A%252F%252Fwww.amazon.com%252FCharming-Dino-Triceratops-Rubber-Dinosaur%252Fdp%252FB00CJ8OZ4S%3B300%3B200</li>
 		    <li>http://www.amazon.com/Nylabone-Durable-Dental-Dinosaur-Varies/dp/B000084E6V</li>
 		    <li>http://www.google.com/imgres?imgurl=&imgrefurl=https%3A%2F%2Fp2p.paperlesstrans.com%2Fdefault.aspx%3Fi%3Dsatstorefront&h=0&w=0&tbnid=MHuMGX03OQr5XM&zoom=1&tbnh=220&tbnw=220&docid=ZV-9rPqzKBQLVM&tbm=isch&ei=rgbDU-PbCcmdyASIv4HABg&ved=0CAIQsCUoAA</li>
+		    <li>http://busstop.typepad.com/blog/images/2007/10/21/fifty_hats07.jpg</li>
+		    <li>http://states.aarp.org/wp-content/uploads/2014/01/Tie-doctor-who-bow-ties-33198238-1600-1236.jpg</li>
 		</ul>
 
 	</div>

@@ -25,11 +25,11 @@
 		  	<div class="col-md-12">
 				<table class="storeItemTables">
 		  				<tbody>
-		  					<tr>
-		  						<td><img src="../assets/images/our-dinos/Barosaurus.jpg" width="160px" height="140px" alt="Barosaurus"/></td>
-		  						<td><img src="../assets/images/our-dinos/diceratops.jpg" width="160px" height="140px"/></td>
-		  						<td><img src="../assets/images/our-dinos/erketu.jpg" width="160px" height="140px"/></td>
-		  						<td><img src="../assets/images/our-dinos/giraffatitan.jpg" width="160px" height="140px"/></td>
+		  					<tr class="scaleImages">
+		  						<td><img src="../assets/images/our-dinos/Barosaurus.jpg" /></td>
+		  						<td><img src="../assets/images/our-dinos/diceratops.jpg"/></td>
+		  						<td><img src="../assets/images/our-dinos/erketu.jpg" /></td>
+		  						<td><img src="../assets/images/our-dinos/giraffatitan.jpg" /></td>
 		  					</tr>
 		  					<tr class="tableLabelsForStore">
 		  						<td>Barosaurus</td>
@@ -43,17 +43,23 @@
 		  						<td>Price: $1350.00</td>
 		  						<td>Price: $1624.99</td>
 		  					</tr>
-		  					<tr class="quantityBoxes">
+		  					<tr>
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Barosaurus" id="adoption-1499" /></td>
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Diceratops" id="adoption-1200" /></td>
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Erketu" id="adoption-1350" /></td>
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Giraffatitan" id="adoption-1624.99" /></td>
 		  					</tr>
+		  					<tr class="stock bottomLine">
+		  						<td><p id="barosaurus-stock" class="updateStockPile"></p></td>
+		  						<td><p id="diceratops-stock" class="updateStockPile"></p></td>
+		  						<td><p id="erketu-stock" class="updateStockPile"></p></td>
+		  						<td><p id="giraffatitan-stock" class="updateStockPile"></p></td>
+		  					</tr>
 
-		  					<tr class="tableLowerRow">
-		  						<td><img src="../assets/images/our-dinos/laosaurus.jpg" width="160px" height="140px"/></td>
-		  						<td><img src="../assets/images/our-dinos/manidens.jpg" width="160px" height="140px"/></td>
-		  						<td><img src="../assets/images/our-dinos/minmi.jpg" width="160px" height="140px"/></td>
+		  					<tr class="tableLowerRow scaleImages">
+		  						<td><img src="../assets/images/our-dinos/laosaurus.jpg" /></td>
+		  						<td><img src="../assets/images/our-dinos/manidens.jpg" /></td>
+		  						<td><img src="../assets/images/our-dinos/minmi.jpg" /></td>
 		  					</tr>
 		  					<tr class="tableLabelsForStore">
 		  						<td>Laosaurus</td>
@@ -69,6 +75,11 @@
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Laosaurus" id="adoption-900" /></td>
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Manidens" id="adoption-305" /></td>
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Minmi" id="adoption-649.99" /></td>
+		  					</tr>
+		  					<tr class="stock">
+		  						<td><p id="laosaurus-stock" class="updateStockPile"></p></td>
+		  						<td><p id="manidens-stock" class="updateStockPile"></p></td>
+		  						<td><p id="minmi-stock" class="updateStockPile"></p></td>
 		  					</tr>
 		  				</tbody>
 		  			</table>
@@ -90,7 +101,7 @@
 								</tr>
 								<tr class="tableLabelsForStore">
 									<td>Barosaurus Egg Kit</td>
-									<td>Biceratops Egg Kit</td>
+									<td>Diceratops Egg Kit</td>
 									<td>Erketu Egg Kit</td>
 									<td>Giraffatitan Egg Kit</td>
 								</tr>
@@ -100,12 +111,18 @@
 									<td>Price: $282.00</td>
 									<td>Price: $300.00</td>
 								</tr>
-								<tr class="quantityBoxes">
+								<tr>
 									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Barosaurus-Egg-Kit" id="eggKits-325" /></td>
-									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Biceratops-Egg-Kit" id="eggKits-275" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Diceratops-Egg-Kit" id="eggKits-275" /></td>
 									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Erketu-Egg-Kit" id="eggKits-282" /></td>
 									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Giraffatitan-Egg-Kit" id="eggKits-300" /></td>
 								</tr>
+								<tr class="stock bottomLine">
+		  						<td><p id="barosaurus-egg-kit-stock" class="updateStockPile"></p></td>
+		  						<td><p id="diceratops-egg-kit-stock" class="updateStockPile"></p></td>
+		  						<td><p id="erketu-egg-kit-stock" class="updateStockPile"></p></td>
+		  						<td><p id="giraffatitan-egg-kit-stock" class="updateStockPile"></p></td>
+		  					</tr>
 
 								<tr class="tableLowerRow">
 									<td><img src="../assets/images/store/eggkits/dino5-eggBasket.png" class="eggBasketPic"/></td>
@@ -127,6 +144,85 @@
 									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Manidens-Egg-Kit" id="eggKits-299" /></td>
 									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Minmi-Egg-Kit" id="eggKits-389" /></td>
 								</tr>
+								<tr class="stock">
+		  						<td><p id="laosaurus-egg-kit-stock" class="updateStockPile"></p></td>
+		  						<td><p id="manidens-egg-kit-stock" class="updateStockPile"></p></td>
+		  						<td><p id="minmi-egg-kit-stock" class="updateStockPile"></p></td>
+		  					</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+
+			<div class="tab-pane" id="accessories">
+				<div class="col-md-12">
+					<h3>Accessories</h3>
+					<div>
+						<p>Each of our egg kits comes with an egg, incubator, adoption certificate, and our starter food package.</p>
+						<table class="storeItemTables">
+							<tbody>
+								<tr>
+									<td><img src="../assets/images/store/accessories/dinosaur_leash.png"/></td>
+									<td><img src="../assets/images/store/accessories/dino_sign.png" /></td>
+									<td><img src="../assets/images/store/accessories/heat_lamp.png"/></td>
+									<td><img src="../assets/images/store/accessories/fence.png"/></td>
+								</tr>
+								<tr class="tableLabelsForStore">
+									<td>One Size Leash</td>
+									<td>Do Not Ride Sign</td>
+									<td>XLarge Heat Lamp</td>
+									<td>High Volatage Fence</td>
+								</tr>
+								<tr>
+									<td>Price: $19.99</td>
+									<td>Price: $4.99</td>
+									<td>Price: $59.99</td>
+									<td>Price: $174.99</td>
+								</tr>
+								<tr>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="One-Size-Leash" id="accessories-19.99" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Do-Not-Ride-Sign" id="accessories-4.99" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="XLarge-Heat-Lamp" id="accessories-59.99" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="High-Voltage-Fence" id="accessories-174.99" /></td>
+								</tr>
+								<tr class="stock bottomLine">
+		  						<td><p id="one-size-leash-stock" class="updateStockPile"></p></td>
+		  						<td><p id="do-not-ride-sign-stock" class="updateStockPile"></p></td>
+		  						<td><p id="xlarge-heat-lamp-stock" class="updateStockPile"></p></td>
+		  						<td><p id="high-voltage-fence-stock" class="updateStockPile"></p></td>
+		  					</tr>
+
+								<tr class="tableLowerRow">
+									<td><img src="../assets/images/store/accessories/dino_clean_up.png" /></td>
+									<td><img src="../assets/images/store/accessories/dino_lotion.png" /></td>
+									<td><img src="../assets/images/store/accessories/bow-ties.png" /></td>
+									<td><img src="../assets/images/store/accessories/woolen-hats.png" /></td>
+								</tr>
+								<tr class="tableLabelsForStore">
+									<td>Industrial Waste Removal</td>
+									<td>Dinosaur Lotion</td>
+									<td>Set of Assorted Bow Ties</td>
+									<td>Set of Assorted Woolen Hats</td>
+								</tr>
+								<tr>
+									<td>Price: $479.99</td>
+									<td>Price: $9.99</td>
+									<td>Price: $35.99</td>
+									<td>Price: $24.99</td>
+								</tr>
+								<tr>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Industrial-Waste-Removal" id="accessories-479.99" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Dinosaur-Lotion" id="accessories-9.99" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Set-of-Assorted-Bow-Ties" id="accessories-35.99" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Set-of-Assorted-Woolen-Hats" id="accessories-24.99" /></td>
+								</tr>
+								<tr class="stock">
+		  						<td><p id="industrial-waste-removal-stock" class="updateStockPile"></p></td>
+		  						<td><p id="dinosaur-lotion-stock" class="updateStockPile"></p></td>
+		  						<td><p id="set-of-assorted-bow-ties-stock" class="updateStockPile"></p></td>
+		  						<td><p id="set-of-assorted-woolen-hats-stock" class="updateStockPile"></p></td>
+		  					</tr>
 							</tbody>
 						</table>
 					</div>
@@ -134,90 +230,7 @@
 			</div>
 
 
-		 <!--  <div class="tab-pane" id="accessories">
-
-		  	<div class="row">
-				<div class="col-md-12">
-					<h1>Accessories</h1>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<p>
-							<figure>
-								<img src='../assets/images/dinosaur_leash.jpg' alt='dinoleash' style="height:50%; width: 50%;" />
-							</figure>
-						</p>
-						<p>Our one size fits all leashes are great for taking any of our dinosaurs for a walk!
-						Our leashes are only $19.99 each.<br>
-						<b>Quantity:</b> <input type="number" min="0" name="leash" id="accessories-19.99" class="addToBasket">
-						</p>
-					</div>
-
-					<div class="col-md-4">
-						<p>
-							<figure>
-								<img src='../assets/images/dino_sign.jpg' alt='sign' style="height:50%; width: 50%;" />
-							</figure>
-						</p>
-						<p>Be careful that strangers don't try to ride your dinosaur!  Each sign is only $4.99. <br>
-						<b>Quantity:</b> <input type="number" min="0" name="sign" id="accessories-4.99" class="addToBasket">
-						</p>
-					</div>
-					
-					<div class="col-md-4">
-						<p>
-							<figure>
-								<img src='../assets/images/heat_lamp.jpg' alt='lamp' style="height:50%; width: 50%;" />
-							</figure>
-						</p>
-						<p>If you live in an area that can reach freezing temperatures you'll need some heat lamps for your dinosaur.
-						Each heat lamp is $29.99.<br>
-						<b>Quantity:</b> <input type="number" min="0" name="lamp" id="accessories-29.99" class="addToBasket">
-						</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-md-4">
-					<p>
-						<figure>
-							<img src='../assets/images/fence.jpg' alt='fence' style="height:50%; width: 50%;" />
-						</figure>
-					</p>
-					<p>If you are nervous of your dinosaur running away on you we also sell fences to keep them in.  
-					20 feet long 10 feet high pieces are $74.99 each. <br>
-					<b>Quantity:</b> <input type="number" min="0" name="fence" id="accessories-74.99" class="addToBasket">
-					</p>
-				</div>
-
-				<div class="col-md-4">
-					<p>
-						<figure>
-							<img src='../assets/images/dino_clean_up.jpg' alt='cleaner' style="height:50%; width: 50%;" />
-						</figure>
-					</p>
-					<p>We'll admit that our dinosaurs can make a mess out in the yard, however, we've made clean up simple with
-					this yard cleaning machine!  Our price is $479.99 each. <br>
-					<b>Quantity:</b> <input type="number" min="0" name="cleaner" id="accessories-479.99" class="addToBasket">
-					</p>
-				</div>
-
-				<div class="col-md-4">
-					<p>
-						<figure>
-							<img src='../assets/images/dino_lotion.jpg' alt='lotion' style="height:50%; width: 50%;" />
-						</figure>
-					</p>
-					<p>This lotion helps to keep the dinosaur's skin from getting rough.  Each gallon is $9.99.<br>
-					<b>Quantity:</b> <input type="number" min="0" name="lotion" id="accessories-9.99" class="addToBasket">
-					</p>
-				</div>
-			</div>
-		  </div>
-
-
-		  <div class="tab-pane" id="nutrition">
+<!-- 		  <div class="tab-pane" id="nutrition">
 		  	<div class="col-md-12">
 		  		<h1>Nutrition</h1>
 		  		 <div class="row">
@@ -323,10 +336,10 @@
 		  			<table class="storeItemTables" id="storeBeddingTable">
 		  				<tbody>
 		  					<tr>
-		  						<td><img src="../assets/images/store/bedding/classic-bed.png" class="beddingPic-tall"/></td>
-		  						<td><img src="../assets/images/store/bedding/small-mushy.png" class="beddingPic-long"/></td>
-		  						<td><img src="../assets/images/store/bedding/basic-square-bed.png" class="beddingPic-long"/></td>
-		  						<td><img src="../assets/images/store/bedding/bed-sofa.png" class="beddingPic-long"/></td>
+		  						<td><img src="../assets/images/store/bedding/classic-bed.png"/></td>
+		  						<td><img src="../assets/images/store/bedding/small-mushy.png" /></td>
+		  						<td><img src="../assets/images/store/bedding/basic-square-bed.png" /></td>
+		  						<td><img src="../assets/images/store/bedding/bed-sofa.png" /></td>
 		  					</tr>
 		  					<tr class="tableLabelsForStore">
 		  						<td>Classic Bed</td>
@@ -347,17 +360,17 @@
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Sofa-Bed" id="bedding-21.99" /></td>
 		  					</tr>
 		  					<tr class="stock bottomLine">
-		  						<td><p id="classic-bed-stoc"</p></td>
-		  						<td><p id="soft-round-bed-stoc"</p></td>
-		  						<td><p id="classic-square-bed-stoc"</p></td>
-		  						<td><p id="sofa-bed-stoc"</p></td>
+		  						<td><p id="classic-bed-stock" class="updateStockPile"></p></td>
+		  						<td><p id="soft-round-bed-stock" class="updateStockPile"></p></td>
+		  						<td><p id="classic-square-bed-stock" class="updateStockPile"></p></td>
+		  						<td><p id="sofa-bed-stock" class="updateStockPile"></p></td>
 		  					</tr>
 
 		  					<tr class="tableLowerRow">
-		  						<td><img src="../assets/images/store/bedding/name-bed.png" class="beddingPic-long"/></td>
-		  						<td><img src="../assets/images/store/bedding/largeCustomBed.png" class="beddingPic-long"/></td>
-		  						<td><img src="../assets/images/store/bedding/bed-couch.png" class="beddingPic-long"/></td>
-		  						<td><img src="../assets/images/store/bedding/luxury-bed.png" class="beddingPic-long"/></td>	
+		  						<td><img src="../assets/images/store/bedding/name-bed.png"/></td>
+		  						<td><img src="../assets/images/store/bedding/largeCustomBed.png" /></td>
+		  						<td><img src="../assets/images/store/bedding/bed-couch.png" /></td>
+		  						<td><img src="../assets/images/store/bedding/luxury-bed.png" /></td>	
 		  					</tr>
 		  					<tr class="tableLabelsForStore">
 		  						<td>Soft Bed w/Customized Name</td>
@@ -371,18 +384,25 @@
 		  						<td>Price: $39.99</td>
 		  						<td>Price: $44.99</td>
 		  					</tr>
-		  					<tr class="bottomLine">
+		  					<tr>
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Soft-Bed-w/Customized-Name" id="bedding-29.99" /></td>
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Wooden-Bed-w/Customized-Name" id="bedding-34.99" /></td>
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Couch-Bed" id="bedding-39.99" /></td>
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Luxury-Bed" id="bedding-44.99" /></td>
 		  					</tr>
+		  					<tr class="stock bottomLine">
+		  						<td><p id="soft-bed-w-customized-name-stock" class="updateStockPile"></p></td>
+		  						<td><p id="wooden-bed-w-customized-name-stock" class="updateStockPile"></p></td>
+		  						<td><p id="couch-bed-stock" class="updateStockPile"></p></td>
+		  						<td><p id="luxury-bed-stock" class="updateStockPile"></p></td>
+		  					</tr>
+
 
 		  					<tr class="tableLowerRow">
-		  						<td><img src="../assets/images/store/bedding/purple-bed.png" class="beddingPic-long"/></td>
-		  						<td><img src="../assets/images/store/bedding/fancy-bed.png" class="beddingPic-tall"/></td>
-		  						<td><img src="../assets/images/store/bedding/pergola.png" class="beddingPic-tall"/></td>
-		  						<td><img src="../assets/images/store/bedding/open-shed.png" class="beddingPic-long"/></td>
+		  						<td><img src="../assets/images/store/bedding/purple-bed.png"/></td>
+		  						<td><img src="../assets/images/store/bedding/fancy-bed.png"/></td>
+		  						<td><img src="../assets/images/store/bedding/pergola.png" /></td>
+		  						<td><img src="../assets/images/store/bedding/open-shed.png"/></td>
 		  					</tr>
 		  					<tr class="tableLabelsForStore">
 		  						<td>Woodden Mini Bed</td>
@@ -396,18 +416,24 @@
 		  						<td>Price: $125.99</td>
 		  						<td>Price: $169.99</td>
 		  					</tr>
-		  					<tr class="bottomLine">
-		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Woodden-Mini-Bed" id="bedding-49.99" /></td>
+		  					<tr>
+		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Wooden-Mini-Bed" id="bedding-49.99" /></td>
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Ultra-Posh-Bed" id="bedding-59.99" /></td>
-		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Wodden-Pergola" id="bedding-125.99" /></td>
+		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Wooden-Pergola" id="bedding-125.99" /></td>
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Open-Concept-Shed" id="bedding-169.99" /></td>
+		  					</tr>
+		  					<tr class="stock bottomLine">
+		  						<td><p id="wooden-mini-bed-stock" class="updateStockPile"></p></td>
+		  						<td><p id="ultra-posh-bed-stock" class="updateStockPile"></p></td>
+		  						<td><p id="wooden-pergola-stock" class="updateStockPile"></p></td>
+		  						<td><p id="open-concept-shed-stock" class="updateStockPile"></p></td>
 		  					</tr>
 
 		  					<tr class="tableLowerRow">
-		  						<td><img src="../assets/images/store/bedding/basic-gazebo.png" class="beddingPic-tall"/></td>
-		  						<td><img src="../assets/images/store/bedding/square-gazebo.png" class="beddingPic-tall"/></td>
-		  						<td><img src="../assets/images/store/bedding/screened-gazebo.png" class="beddingPic-tall"/></td>
-		  						<td><img src="../assets/images/store/bedding/red-shed.png" class="beddingPic-tall"/></td>
+		  						<td><img src="../assets/images/store/bedding/basic-gazebo.png"/></td>
+		  						<td><img src="../assets/images/store/bedding/square-gazebo.png"/></td>
+		  						<td><img src="../assets/images/store/bedding/screened-gazebo.png"/></td>
+		  						<td><img src="../assets/images/store/bedding/red-shed.png"/></td>
 		  					</tr>
 		  					<tr class="tableLabelsForStore">
 		  						<td>Basic Gazebo</td>
@@ -421,16 +447,22 @@
 		  						<td>Price: $274.99</td>
 		  						<td>Price: $299.99</td>
 		  					</tr>
-		  					<tr class="bottomLine">
+		  					<tr>
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Basic-Gazebo" id="bedding-199.99" /></td>
-		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Sqaure-Gazebo" id="bedding-224.99" /></td>
+		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Square-Gazebo" id="bedding-224.99" /></td>
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Enclosed-Gazebo" id="bedding-274.99" /></td>
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Classic-Farm-Shed" id="bedding-299.99" /></td>
 		  					</tr>
+		  					<tr class="stock bottomLine">
+		  						<td><p id="basic-gazebo-stock" class="updateStockPile"></p></td>
+		  						<td><p id="square-gazebo-stock" class="updateStockPile"></p></td>
+		  						<td><p id="enclosed-gazebo-stock" class="updateStockPile"></p></td>
+		  						<td><p id="classic-farm-shed-stock" class="updateStockPile"></p></td>
+		  					</tr>
 
 		  					<tr class="tableLowerRow">
-		  						<td><img src="../assets/images/store/bedding/wire-shed.png" class="beddingPic-tall"/></td>
-		  						<td><img src="../assets/images/store/bedding/shed-house.png" class="beddingPic-tall"/></td>
+		  						<td><img src="../assets/images/store/bedding/wire-shed.png"/></td>
+		  						<td><img src="../assets/images/store/bedding/shed-house.png"/></td>
 		  					</tr>
 		  					<tr class="tableLabelsForStore">
 		  						<td>Wire Enclosed Shed</td>
@@ -443,6 +475,10 @@
 		  					<tr>
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Wire-Enclosed-Shed" id="bedding-329.99" /></td>
 		  						<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Luxury-Shed" id="bedding-399.99" /></td>
+		  					</tr>
+		  					<tr class="stock">
+		  						<td><p id="wire-enclosed-shed-stock" class="updateStockPile"></p></td>
+		  						<td><p id="luxury-shed-stock" class="updateStockPile"></p></td>
 		  					</tr>
 		  				</tbody>
 		  			</table>
