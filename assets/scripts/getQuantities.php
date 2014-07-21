@@ -6,8 +6,8 @@
 	$adoption_query = mysqli_query($con,"SELECT item_name, stock_quantity FROM `adoption`");
 	$eggKits_query = mysqli_query($con,"SELECT item_name, stock_quantity FROM `egg-kits`");
 	$accessories_query = mysqli_query($con,"SELECT item_name, stock_quantity FROM `accessories`");
-	// $nutrition_query = mysqli_query($con,"SELECT item_name, stock_quantity FROM `nutrition`");
-	// $toys_query = mysqli_query($con,"SELECT item_name, stock_quantity FROM `toys`");
+	$nutrition_query = mysqli_query($con,"SELECT item_name, stock_quantity FROM `nutrition`");
+	$toys_query = mysqli_query($con,"SELECT item_name, stock_quantity FROM `toys`");
 	$bedding_query = mysqli_query($con,"SELECT item_name, stock_quantity FROM `bedding`");
 
 	// set up the giant hash map
@@ -26,13 +26,13 @@
     $result_hash[$row['item_name']] = $row['stock_quantity'];
 	}
 
-	// 	while ($row = mysqli_fetch_array($nutrition_query)) {
- //    $result_hash[$row['item_name']] = $row['stock_quantity'];
-	// }
+		while ($row = mysqli_fetch_array($nutrition_query)) {
+    $result_hash[$row['item_name']] = $row['stock_quantity'];
+	}
 
-	// 	while ($row = mysqli_fetch_array($toys_query)) {
- //    $result_hash[$row['item_name']] = $row['stock_quantity'];
-	// }
+		while ($row = mysqli_fetch_array($toys_query)) {
+    $result_hash[$row['item_name']] = $row['stock_quantity'];
+	}
 
 		while ($row = mysqli_fetch_array($bedding_query)) {
     $result_hash[$row['item_name']] = $row['stock_quantity'];

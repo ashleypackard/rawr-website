@@ -26,10 +26,10 @@
 				<table class="storeItemTables">
 		  				<tbody>
 		  					<tr class="scaleImages">
-		  						<td><img src="../assets/images/our-dinos/Barosaurus.jpg" /></td>
-		  						<td><img src="../assets/images/our-dinos/diceratops.jpg"/></td>
-		  						<td><img src="../assets/images/our-dinos/erketu.jpg" /></td>
-		  						<td><img src="../assets/images/our-dinos/giraffatitan.jpg" /></td>
+		  						<td><img src="../assets/images/our-dinos/Barosaurus.jpg" alt="Barosaurus" /></td>
+		  						<td><img src="../assets/images/our-dinos/diceratops.jpg" alt="Diceratops"/></td>
+		  						<td><img src="../assets/images/our-dinos/erketu.jpg" alt="Erketu"/></td>
+		  						<td><img src="../assets/images/our-dinos/giraffatitan.jpg" alt="Giraffatitan"/></td>
 		  					</tr>
 		  					<tr class="tableLabelsForStore">
 		  						<td>Barosaurus</td>
@@ -57,9 +57,9 @@
 		  					</tr>
 
 		  					<tr class="tableLowerRow scaleImages">
-		  						<td><img src="../assets/images/our-dinos/laosaurus.jpg" /></td>
-		  						<td><img src="../assets/images/our-dinos/manidens.jpg" /></td>
-		  						<td><img src="../assets/images/our-dinos/minmi.jpg" /></td>
+		  						<td><img src="../assets/images/our-dinos/laosaurus.jpg" alt="Laosaurus"/></td>
+		  						<td><img src="../assets/images/our-dinos/manidens.jpg" alt="Manidens"/></td>
+		  						<td><img src="../assets/images/our-dinos/minmi.jpg" alt="Minmi"/></td>
 		  					</tr>
 		  					<tr class="tableLabelsForStore">
 		  						<td>Laosaurus</td>
@@ -94,10 +94,10 @@
 						<table class="storeItemTables">
 							<tbody>
 								<tr>
-									<td><img src="../assets/images/store/eggkits/dino1-eggBasket.png" class="eggBasketPic"/></td>
-									<td><img src="../assets/images/store/eggkits/dino7-eggBasket.png" class="eggBasketPic"/></td>
-									<td><img src="../assets/images/store/eggkits/dino3-eggBasket.png" class="eggBasketPic"/></td>
-									<td><img src="../assets/images/store/eggkits/dino4-eggBasket.png" class="eggBasketPic"/></td>
+									<td><img src="../assets/images/store/eggkits/dino1-eggBasket.png" alt="Barosaurus Egg Kit" class="eggBasketPic"/></td>
+									<td><img src="../assets/images/store/eggkits/dino7-eggBasket.png" alt="Diceratops Egg Kit"class="eggBasketPic"/></td>
+									<td><img src="../assets/images/store/eggkits/dino3-eggBasket.png" alt="Erketu Egg Kit" class="eggBasketPic"/></td>
+									<td><img src="../assets/images/store/eggkits/dino4-eggBasket.png" alt="Giraffatitan Egg Kit" class="eggBasketPic"/></td>
 								</tr>
 								<tr class="tableLabelsForStore">
 									<td>Barosaurus Egg Kit</td>
@@ -125,9 +125,9 @@
 		  					</tr>
 
 								<tr class="tableLowerRow">
-									<td><img src="../assets/images/store/eggkits/dino5-eggBasket.png" class="eggBasketPic"/></td>
-									<td><img src="../assets/images/store/eggkits/dino2-eggBasket.png" class="eggBasketPic"/></td>
-									<td><img src="../assets/images/store/eggkits/dino6-eggBasket.png" class="eggBasketPic"/></td>
+									<td><img src="../assets/images/store/eggkits/dino5-eggBasket.png" alt="Laosaurus Egg Kit" class="eggBasketPic"/></td>
+									<td><img src="../assets/images/store/eggkits/dino2-eggBasket.png" alt="Manidens Egg Kit" class="eggBasketPic"/></td>
+									<td><img src="../assets/images/store/eggkits/dino6-eggBasket.png" alt="Minmi Egg Kit" class="eggBasketPic"/></td>
 								</tr>
 								<tr class="tableLabelsForStore">
 									<td>Laosaurus Egg Kit</td>
@@ -159,14 +159,14 @@
 				<div class="col-md-12">
 					<h3>Accessories</h3>
 					<div>
-						<p>Each of our egg kits comes with an egg, incubator, adoption certificate, and our starter food package.</p>
+						<p>Accessories are a must have for any dinosaur owner to keep your new pet staying sharp.</p>
 						<table class="storeItemTables">
 							<tbody>
 								<tr>
-									<td><img src="../assets/images/store/accessories/dinosaur_leash.png"/></td>
-									<td><img src="../assets/images/store/accessories/dino_sign.png" /></td>
-									<td><img src="../assets/images/store/accessories/heat_lamp.png"/></td>
-									<td><img src="../assets/images/store/accessories/fence.png"/></td>
+									<td><img src="../assets/images/store/accessories/dinosaur_leash.png" alt="One Size Leash"/></td>
+									<td><img src="../assets/images/store/accessories/dino_sign.png" alt="Do Not Ride Sign" /></td>
+									<td><img src="../assets/images/store/accessories/heat_lamp.png" alt="XLarge Heat Lamp"/></td>
+									<td><img src="../assets/images/store/accessories/fence.png" alt="High Volatage Fence"/></td>
 								</tr>
 								<tr class="tableLabelsForStore">
 									<td>One Size Leash</td>
@@ -194,10 +194,10 @@
 		  					</tr>
 
 								<tr class="tableLowerRow">
-									<td><img src="../assets/images/store/accessories/dino_clean_up.png" /></td>
-									<td><img src="../assets/images/store/accessories/dino_lotion.png" /></td>
-									<td><img src="../assets/images/store/accessories/bow-ties.png" /></td>
-									<td><img src="../assets/images/store/accessories/woolen-hats.png" /></td>
+									<td><img src="../assets/images/store/accessories/dino_clean_up.png" alt="Industrial Waste Removal"/></td>
+									<td><img src="../assets/images/store/accessories/dino_lotion.png" alt="Dinosaur Lotion"/></td>
+									<td><img src="../assets/images/store/accessories/bow-ties.png" alt="Set of Assorted Bow Ties"/></td>
+									<td><img src="../assets/images/store/accessories/woolen-hats.png" alt="Set of Assorted Woolen Hats"/></td>
 								</tr>
 								<tr class="tableLabelsForStore">
 									<td>Industrial Waste Removal</td>
@@ -229,103 +229,222 @@
 				</div>
 			</div>
 
+			<div class="tab-pane" id="nutrition">
+				<div class="col-md-12">
+					<h1>Nutrition</h1>
+					<p>Our specialized dinosaur formula food and treats are packed with the neccessary nutrients to have your pet grow big and strong!</p>
+					<div>
+						<table class="storeItemTables" id="storeNutritionTable">
+							<tbody>
+								<tr>
+									<td><img src="../assets/images/store/nutrition/dino-bone-all-natural-cow.png" alt="Cow Bone" /></td>
+									<td><img src="../assets/images/store/nutrition/dino-bone-gluten-free.png" alt="Gluten Free Bone" /></td>
+									<td><img src="../assets/images/store/nutrition/genuine-sheep.png" alt="Sheep Bone" /></td>
+									<td><img src="../assets/images/store/nutrition/protein-bone.png" alt="Protein Bone" /></td>
+								</tr>
+								<tr class="tableLabelsForStore">
+									<td>Cow Bone</td>
+									<td>Gluten Free Bone</td>
+									<td>Sheep Bone</td>
+									<td>Protein Bone</td>
+								</tr>
+								<tr>
+									<td>Price: $5.99</td>
+									<td>Price: $9.99</td>
+									<td>Price: $9.99</td>
+									<td>Price: $10.99</td>
+								</tr>
+								<tr class="quantityBoxes">
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Cow-Bone" id="nutrition-5.99" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Gluten-Free-Bone" id="nutrition-9.99" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Sheep-Bone" id="nutrition-9.99" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Protein-Bone" id="nutrition-10.99" /></td>
+								</tr>
+								<tr class="stock bottomLine">
+		  						<td><p id="cow-bone-stock" class="updateStockPile"></p></td>
+		  						<td><p id="gluten-free-bone-stock" class="updateStockPile"></p></td>
+		  						<td><p id="sheep-bone-stock" class="updateStockPile"></p></td>
+		  						<td><p id="protein-bone-stock" class="updateStockPile"></p></td>
+		  					</tr>
 
-<!-- 		  <div class="tab-pane" id="nutrition">
-		  	<div class="col-md-12">
-		  		<h1>Nutrition</h1>
-		  		 <div class="row">
-				 <h2>Dinosaur Treats</h2>
-				 <p>Treats should be given sparingly, but one should indulge their dino none the less!</p>
-				 <div class="col-md-X">
-				   <div class="col-md-2">Cow Bone $5.99<img src="../assets/images/dino-bone-all-natural-cow.jpg" alt="cow-bone" id = "picture"/><input type="text" size="8" name="cow-bone" id="5.99" class="addToBasket" value="" /></div>
-				   <div class="col-md-2">Gluten-Free $9.99 <img src="../assets/images/dino-bone-gluten-free.jpg" alt="gluten-free" id = "picture"/><input type="text" size="8" name="gluten-free" id="9.99" class="addToBasket" value="" /></div>
-                   <div class="col-md-2">Sheep Bone $9.99<img src="../assets/images/genuine-sheep.jpg" alt="sheep-bone" id = "picture"/><input type="text" size="8" name="sheep-bone" id="9.99" class="addToBasket" value="" /></div>
-                   <div class="col-md-2">Protein Bone $10.99<img src="../assets/images/protein-bone.jpg" alt="protein-bone" id = "picture"/><input type="text" size="8" name="protein-bone" id="10.99" class="addToBasket" value="" /></div>
-                   <div class="col-md-2">Fake Choc. Box $10.50<img src="../assets/images/choc-dino2.jpg" alt="fake-choc-dino" id = "picture"/><input type="text" size="8" name="fake-choc-dino" id="10.50" class="addToBasket" value="" /></div>
-                   <div class="col-md-2">Fake Choc. 5.99<img src="../assets/images/choc-dino.jpg" alt="fake-choc" id = "picture" /><input type="text" size="8" name="fake-choc" id="5.99" class="addToBasket" value="" /></div>
-				 </div>
-				 </div>
-				 <div class="row">
-				 <h2>Dinosaur Everyday Food</h2>
-				 <p>What everyday food your dino will require depends on your dino's breed. Some, need highly protein based food. For these, fresh meat or live food is highly recommended. Others need a steady diet of leaf-based vegetables. Any of the leafy vegetables here will suffice.</p>
-				 <div class="col-md-X">
-				   <div class="col-md-2">Single Rat $5.99<img src="../assets/images/live-rat.jpg" alt="rat" id = "picture"/><input type="text" size="8" name="rat" id="5.99" class="addToBasket" value="" /></div>
-				   <div class="col-md-2">Leaf Bag $3.49<img src="../assets/images/leaf-veggie-dinosaur.jpg" alt="dino-leaf" id = "picture"/><input type="text" size="8" name="dino-leaf" id="3.49" class="addToBasket" value="" /></div>
-				   <div class="col-md-2">Goat Steak $9.99<img src="../assets/images/goat-steak.jpg" alt="goat-steak" id = "picture"/><input type="text" size="8" name="goat-steak" id="9.99" class="addToBasket" value="" /></div>
-				   <div class="col-md-2">Dino Lettuce $2.99<img src="../assets/images/lettuce.jpg" alt="dino-lettuce" id = "picture"/><input type="text" size="8" name="dino-lettuce" id="2.99" class="addToBasket" value="" /></div>
-				   <div class="col-md-2"></div>
-				   <div class="col-md-2"></div>
-				 </div>
-				 </div>
-				 <div class="row">
-				 <h2>Dinosaur Supplements</h2>
-				 <p>Supplements will keep your dino healthy for many years to come. Consider investing in some today!</p>
-				 <p>Please remember to follow all instructions carefully when using supplements</p>
-				 <div class="col-md-X">
-				   <div class="col-md-2">Supplement $20.99<img src="../assets/images/all-natural-supplement.jpeg" alt="supplement" id = "picture"/><input type="text" size="8" name="supplement" id="20.99" class="addToBasket" value="" /></div>
-				   <div class="col-md-2">Vitamin C $25.99<img src="../assets/images/dino-vita-c-for-colds.jpg" alt="vita-c" id = "picture"/><input type="text" size="8" name="vita-c" id="25.99" class="addToBasket" value="" /></div>
-				   <div class="col-md-2"></div>
-				   <div class="col-md-2"></div>
-				   <div class="col-md-2"></div>
-				   <div class="col-md-2"></div>
-				 </div>
-				 </div>
-				 <div class="row">
-				 <h2>Other Nutrition</h2>
-				 <p>Check out our grow-your-own leaf tree for the everyday feeding of vegetarian dinosaurs, in stock for a limited time.</p>
-				 <div class="col-md-X">
-				   <div class="col-md-2">Grow Your Own Leaf Tree $30.99<img src="../assets/images/tree-grow-your-own.jpg" alt="tree" id = "picture"/><input type="text" size="8" name="tree" id="30.99" class="addToBasket" value="" /></div>
-				   <div class="col-md-2"></div>
-				   <div class="col-md-2"></div>
-				   <div class="col-md-2"></div>
-				   <div class="col-md-2"></div>
-				   <div class="col-md-2"></div>
-				 </div>
-				 </div>
-		  	</div>
-		  </div>
-		
+								<tr class="tableLowerRow">
+									<td><img src="../assets/images/store/nutrition/choc-dino2.png" alt="Fake Chocolate Minis" /></td>
+									<td><img src="../assets/images/store/nutrition/choc-dino.png" alt="Fake Chocolate Dinosaur" /></td>
+									<td><img src="../assets/images/store/nutrition/all-natural-supplement.png" alt="Supplements" /></td>
+									<td><img src="../assets/images/store/nutrition/dino-vita-c-for-colds.png" alt="Vitamin C Tablets" /></td>
+								</tr>
+								<tr class="tableLabelsForStore">
+									<td>Fake Chocolate Minis</td>
+									<td>Fake Chocolate Dinosaur</td>
+									<td>Supplements</td>
+									<td>Vitamin C Tablets</td>
+								</tr>
+								<tr>
+									<td>Price: $10.50</td>
+									<td>Price: $5.99</td>
+									<td>Price: $20.99</td>
+									<td>Price: $25.99</td>
+								</tr>
+								<tr class="quantityBoxes">
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Fake-Chocolate-Minis" id="nutrition-10.50" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Fake-Chocolate-Dinosaur" id="nutrition1-5.99" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Supplements" id="nutrition-20.99" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Vitamin-C-Tablets" id="nutrition-25.99" /></td>
+								</tr>
+								<tr class="stock bottomLine">
+		  						<td><p id="fake-chocolate-minis-stock" class="updateStockPile"></p></td>
+		  						<td><p id="fake-chocolate-dinosaur-stock" class="updateStockPile"></p></td>
+		  						<td><p id="supplements-stock" class="updateStockPile"></p></td>
+		  						<td><p id="vitamin-c-tablets-stock" class="updateStockPile"></p></td>
+		  					</tr>
+
+								<tr class="tableLowerRow">
+									<td><img src="../assets/images/store/nutrition/live-rat.png" alt="Live Rat" /></td>
+									<td><img src="../assets/images/store/nutrition/leaf-veggie-dinosaur.png" alt="Bag Veggie Leaves"/></td>
+									<td><img src="../assets/images/store/nutrition/goat-steak.png" alt="Goat Steak" /></td>
+									<td><img src="../assets/images/store/nutrition/lettuce.png" alt="Bag Dino Lettuce" /></td>	
+								</tr>
+								<tr class="tableLabelsForStore">
+									<td>Live Rat</td>
+									<td>Bag Veggie Leaves</td>
+									<td>Goat Steak</td>
+									<td>Bag Dino Lettuce</td>
+								</tr>
+								<tr>
+									<td>Price: $5.99</td>
+									<td>Price: $3.49</td>
+									<td>Price: $9.99</td>
+									<td>Price: $2.99</td>
+								</tr>
+								<tr class="quantityBoxes">
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Live-Rat" id="nutrition-5.99" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Bag-Veggie-Leaves" id="nutrition-3.49" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Goat-Steak" id="nutrition-9.99" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Bag-Dino-Lettuce" id="nutrition-2.99" /></td>
+								</tr>
+								<tr class="stock bottomLine">
+		  						<td><p id="live-rat-stock" class="updateStockPile"></p></td>
+		  						<td><p id="bag-veggie-leaves-stock" class="updateStockPile"></p></td>
+		  						<td><p id="goat-steak-stock" class="updateStockPile"></p></td>
+		  						<td><p id="bag-dino-lettuce-stock" class="updateStockPile"></p></td>
+		  					</tr>
+								
+								<tr class="tableLowerRow">
+									<td><img src="../assets/images/store/nutrition/tree-grow-your-own.png" alt="Grow Your Own Tree"/></td>
+									<td><img src="../assets/images/store/nutrition/dino-chow.png" alt="Dino Chow"/></td>
+								</tr>
+								<tr class="tableLabelsForStore">
+									<td>Grow Your Own Tree</td>
+									<td>Large Bag of Dino Chow</td>
+								</tr>
+								<tr>
+									<td>Price: $30.99</td>
+									<td>Price: $59.99</td>
+								</tr>
+								<tr class="quantityBoxes">
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Grow-Your-Own-Tree" id="nutrition-30.99" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Large-Bag-of-Dino-Chow" id="nutrition-59.99" /></td>
+								</tr>
+								<tr class="stock bottomLine">
+		  						<td><p id="grow-your-own-tree-stock" class="updateStockPile"></p></td>
+		  						<td><p id="large-bag-of-dino-chow-stock" class="updateStockPile"></p></td>
+		  					</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+
+
 		  <div class="tab-pane" id="toys">
 		  	<div class="col-md-12">
 		  		<h1>Toys</h1>
-		  		 <div class="row">
-				 <h2>Teeth health</h2>
-				 <p>Get a chew toy to prevent chewing damage to home furniture!</p>
-				 <div class="col-md-X">
-				   <div class="col-md-2">Chew Rex $9.99<img src="../assets/images/chew-toy-rex.jpg" alt="toy-rex" id = "picture"/><input type="text" size="8" name="toy-rex" id="9.99" class="addToBasket" value="" /></div>
-				   <div class="col-md-2">Vegisaurus#1 $10.99<img src="../assets/images/veg-toy.jpg" alt="veg-toy" id = "picture"/><input type="text" size="8" name="veg-toy1" id="10.99" class="addToBasket" value="" /></div>
-				   <div class="col-md-2">Vegisaurus#2 $10.99<img src="../assets/images/veg-toy-2.jpg" alt="veg-toy2" id = "picture"/><input type="text" size="8" name="veg-toy2" id="10.99" class="addToBasket" value="" /></div>
-				   <div class="col-md-2"></div>
-				   <div class="col-md-2"></div>
-				   <div class="col-md-2"></div>
-				 </div>
-				 </div>
-				 <div class="row">
-				 <h2>Stuffed Pals</h2>
-				 <p>Buy a stuffed friend to keep your dinosaur company (or throw when you feel like playing fetch)</p>
-				 <div class="col-md-X">
-				   <div class="col-md-2">Triceretops $15.99<img src="../assets/images/stuff-pal1.jpg" alt="tri-pal" id = "picture"/> <input type="text" size="8" name="triceretops-pal" id="15.99" class="addToBasket" value="" /></div>
-				   <div class="col-md-2">Long Neck#1 $15.99<img src="../assets/images/stuff-pal.jpg" alt="neck-pal" id = "picture"/> <input type="text" size="8" name="long-neck-pal" id="15.99" class="addToBasket" value=""/></div>
-				   <div class="col-md-2">Flier $15.99<img src="../assets/images/pal-3.jpg" alt="fly-pal" id = "picture"/><input type="text" size="8" name="flying-pal-pal" id="15.99" class="addToBasket" value=""/></div>
-				   <div class="col-md-2">Long Neck#2 $15.99<img src="../assets/images/pal5.jpg" alt="neck-pal1" id = "picture"/><input type="text" size="8" name="long-neck-pal-1" id="15.99" class="addToBasket" value=""/></div>
-				   <div class="col-md-2">Long Neck#3 $15.99<img src="../assets/images/pal6.jpg" alt="neck-pal2" id = "picture"/><input type="text" size="8" name="long-neck-pal-2" id="15.99" class="addToBasket" value=""/></div>
-				   <div class="col-md-2"></div>
-				 </div>
-				 </div>
-				 <div class="row">
-				 <h2>Other Toys</h2>
-				 <p>This section is for limited time items ranging from throwing balls to other toys.</p>
-				 <div class="col-md-X">
-				   <div class="col-md-2">Throwing Balls $5.99<img src="../assets/images/throwing-balls.jpg" alt="balls" id = "picture"/><input type="text" size="8" name="balls" id="5.99" class="addToBasket" value="" /></div>
-				   <div class="col-md-2"></div>
-				   <div class="col-md-2"></div>
-				   <div class="col-md-2"></div>
-				   <div class="col-md-2"></div>
-				   <div class="col-md-2"></div>
-				 </div>
-				 </div>
-		  	</div>
-		  </div> -->
+		  		<p>Don't forget to purchase some toys for your new pet to play with to keep them happy and healthy.</p>
+		  		<div>
+		  			<table class="storeItemTables" id="storeToysTable">
+		  				<tbody>
+		  					<tr>
+		  						<td><img src="../assets/images/store/toys/chew-toy-rex.png" alt="Chew Rex" /></td>
+		  						<td><img src="../assets/images/store/toys/veg-toy.png" alt="Blue Chew Vegisaurus" /></td>
+		  						<td><img src="../assets/images/store/toys/veg-toy-2.png" alt="Green Chew Vegisaurus" /></td>
+		  						<td><img src="../assets/images/store/toys/throwing-balls.png" alt="Throwing Balls"/></td>
+		  					</tr>
+		  					<tr class="tableLabelsForStore">
+		  						<td>Chew Rex</td>
+		  						<td>Blue Chew Vegisaurus</td>
+		  						<td>Green Chew Vegisaurus</td>
+		  						<td>Throwing Balls</td>
+		  					</tr>
+								<tr>
+									<td>Price: $9.99</td>
+									<td>Price: $10.99</td>
+									<td>Price: $10.99</td>
+									<td>Price: $5.99</td>
+								</tr>
+								<tr class="quantityBoxes">
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Chew-Rex" id="toys-9.99" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Blue-Chew-Vegisaurus" id="toys-10.99" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Green-Chew-Vegisaurus" id="toys1-10.99" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Throwing-Balls" id="toys-5.99" /></td>
+								</tr>
+								<tr class="stock bottomLine">
+		  						<td><p id="chew-rex-stock" class="updateStockPile"></p></td>
+		  						<td><p id="blue-chew-vegisaurus-stock" class="updateStockPile"></p></td>
+		  						<td><p id="green-chew-vegisaurus-stock" class="updateStockPile"></p></td>
+		  						<td><p id="throwing-balls-stock" class="updateStockPile"></p></td>
+		  					</tr>
+								
+								<tr class="tableLowerRow">
+									<td><img src="../assets/images/store/toys/stuff-pal1.png" alt="Triceretops Pal"/></td>
+									<td><img src="../assets/images/store/toys/stuff-pal.png" alt="Spikosaurus Pal"/></td>
+									<td><img src="../assets/images/store/toys/pal-3.png" alt="Flying Pal" /></td>
+									<td><img src="../assets/images/store/toys/pal5.png" alt="Green Long Neck Pal"/></td>
+								</tr>
+								<tr class="tableLabelsForStore">
+									<td>Triceretops Pal</td>
+									<td>Spikosaurus Pal</td>
+									<td>Flying Pal</td>
+									<td>Green Long Neck Pal</td>
+								</tr>
+								<tr>
+									<td>Price: $15.99</td>
+									<td>Price: $15.99</td>
+									<td>Price: $15.99</td>
+									<td>Price: $15.99</td>
+								</tr>
+								<tr class="quantityBoxes">
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Triceretops-Pal" id="toys-15.99" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Spikosaurus-Pal" id="toys1-15.99" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Flying-Pal" id="toys2-15.99" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Green-Long-Neck-Pal" id="toys3-15.99" /></td>
+								</tr>
+								<tr class="stock bottomLine">
+		  						<td><p id="triceretops-pal-stock" class="updateStockPile"></p></td>
+		  						<td><p id="spikosaurus-pal-stock" class="updateStockPile"></p></td>
+		  						<td><p id="flying-pal-stock" class="updateStockPile"></p></td>
+		  						<td><p id="green-long-neck-pal-stock" class="updateStockPile"></p></td>
+		  					</tr>
+		  					
+		  					<tr class="tableLowerRow">
+		  						<td><img src="../assets/images/store/toys/pal6.png" alt="Rex Pal" id = "picture"/></td>
+		  					</tr>
+								<tr class="tableLabelsForStore">
+									<td>Rex Pal</td>
+								</tr>
+								<tr>
+									<td>Price: $15.99</td>
+								</tr>
+		  					<tr class="quantityBoxes">
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Rex-Pal" id="toys4-15.99" /></td>
+								</tr>
+								<tr class="stock bottomLine">
+		  						<td><p id="rex-pal-stock" class="updateStockPile"></p></td>
+		  					</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
 
 		  <div class="tab-pane" id="bedding">
 		  	<div class="col-md-12">
@@ -336,10 +455,10 @@
 		  			<table class="storeItemTables" id="storeBeddingTable">
 		  				<tbody>
 		  					<tr>
-		  						<td><img src="../assets/images/store/bedding/classic-bed.png"/></td>
-		  						<td><img src="../assets/images/store/bedding/small-mushy.png" /></td>
-		  						<td><img src="../assets/images/store/bedding/basic-square-bed.png" /></td>
-		  						<td><img src="../assets/images/store/bedding/bed-sofa.png" /></td>
+		  						<td><img src="../assets/images/store/bedding/classic-bed.png" alt="Classic Bed"/></td>
+		  						<td><img src="../assets/images/store/bedding/small-mushy.png" alt="Soft Round Bed" /></td>
+		  						<td><img src="../assets/images/store/bedding/basic-square-bed.png" alt="Classic Square Bed"/></td>
+		  						<td><img src="../assets/images/store/bedding/bed-sofa.png" alt="Sofa Bed" /></td>
 		  					</tr>
 		  					<tr class="tableLabelsForStore">
 		  						<td>Classic Bed</td>
@@ -367,10 +486,10 @@
 		  					</tr>
 
 		  					<tr class="tableLowerRow">
-		  						<td><img src="../assets/images/store/bedding/name-bed.png"/></td>
-		  						<td><img src="../assets/images/store/bedding/largeCustomBed.png" /></td>
-		  						<td><img src="../assets/images/store/bedding/bed-couch.png" /></td>
-		  						<td><img src="../assets/images/store/bedding/luxury-bed.png" /></td>	
+		  						<td><img src="../assets/images/store/bedding/name-bed.png" alt="Soft Bed w/Customized Name"/></td>
+		  						<td><img src="../assets/images/store/bedding/largeCustomBed.png" alt="Wooden Bed w/Customized Name"/></td>
+		  						<td><img src="../assets/images/store/bedding/bed-couch.png" alt="Couch Bed"/></td>
+		  						<td><img src="../assets/images/store/bedding/luxury-bed.png" alt="Luxury Bed"/></td>	
 		  					</tr>
 		  					<tr class="tableLabelsForStore">
 		  						<td>Soft Bed w/Customized Name</td>
@@ -399,13 +518,13 @@
 
 
 		  					<tr class="tableLowerRow">
-		  						<td><img src="../assets/images/store/bedding/purple-bed.png"/></td>
-		  						<td><img src="../assets/images/store/bedding/fancy-bed.png"/></td>
-		  						<td><img src="../assets/images/store/bedding/pergola.png" /></td>
-		  						<td><img src="../assets/images/store/bedding/open-shed.png"/></td>
+		  						<td><img src="../assets/images/store/bedding/purple-bed.png" alt="Wooden Mini Bed"/></td>
+		  						<td><img src="../assets/images/store/bedding/fancy-bed.png" alt="Ultra Posh Bed"/></td>
+		  						<td><img src="../assets/images/store/bedding/pergola.png" alt="Wooden Pergola"/></td>
+		  						<td><img src="../assets/images/store/bedding/open-shed.png" alt="Open Concept Shed"/></td>
 		  					</tr>
 		  					<tr class="tableLabelsForStore">
-		  						<td>Woodden Mini Bed</td>
+		  						<td>Wooden Mini Bed</td>
 		  						<td>Ultra Posh Bed</td>
 		  						<td>Wooden Pergola</td>
 		  						<td>Open Concept Shed</td>
@@ -430,10 +549,10 @@
 		  					</tr>
 
 		  					<tr class="tableLowerRow">
-		  						<td><img src="../assets/images/store/bedding/basic-gazebo.png"/></td>
-		  						<td><img src="../assets/images/store/bedding/square-gazebo.png"/></td>
-		  						<td><img src="../assets/images/store/bedding/screened-gazebo.png"/></td>
-		  						<td><img src="../assets/images/store/bedding/red-shed.png"/></td>
+		  						<td><img src="../assets/images/store/bedding/basic-gazebo.png" alt="Basic Gazebo"/></td>
+		  						<td><img src="../assets/images/store/bedding/square-gazebo.png" alt="Square Gazebo"/></td>
+		  						<td><img src="../assets/images/store/bedding/screened-gazebo.png" alt="Enclosed Gazebo"/></td>
+		  						<td><img src="../assets/images/store/bedding/red-shed.png" alt="Classic Farm Shed"/></td>
 		  					</tr>
 		  					<tr class="tableLabelsForStore">
 		  						<td>Basic Gazebo</td>
@@ -461,8 +580,8 @@
 		  					</tr>
 
 		  					<tr class="tableLowerRow">
-		  						<td><img src="../assets/images/store/bedding/wire-shed.png"/></td>
-		  						<td><img src="../assets/images/store/bedding/shed-house.png"/></td>
+		  						<td><img src="../assets/images/store/bedding/wire-shed.png" alt="Wire Enclosed Shed"/></td>
+		  						<td><img src="../assets/images/store/bedding/shed-house.png" alt="Luxury Shed"/></td>
 		  					</tr>
 		  					<tr class="tableLabelsForStore">
 		  						<td>Wire Enclosed Shed</td>
