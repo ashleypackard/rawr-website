@@ -346,7 +346,7 @@
 									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Grow-Your-Own-Tree" id="nutrition-30.99" /></td>
 									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Large-Bag-of-Dino-Chow" id="nutrition-59.99" /></td>
 								</tr>
-								<tr class="stock bottomLine">
+								<tr class="stock">
 		  						<td><p id="grow-your-own-tree-stock" class="updateStockPile"></p></td>
 		  						<td><p id="large-bag-of-dino-chow-stock" class="updateStockPile"></p></td>
 		  					</tr>
@@ -438,7 +438,7 @@
 		  					<tr class="quantityBoxes">
 									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Rex-Pal" id="toys4-15.99" /></td>
 								</tr>
-								<tr class="stock bottomLine">
+								<tr class="stock">
 		  						<td><p id="rex-pal-stock" class="updateStockPile"></p></td>
 		  					</tr>
 							</tbody>
