@@ -22,6 +22,7 @@
 		<!-- Tab panes -->
 		<div class="tab-content">
 		  <div class="tab-pane active" id="adoption">
+		  	<h3>Adoption</h3>
 		  	<div class="col-md-12">
 				<table class="storeItemTables">
 		  				<tbody>
@@ -231,7 +232,7 @@
 
 			<div class="tab-pane" id="nutrition">
 				<div class="col-md-12">
-					<h1>Nutrition</h1>
+					<h3>Nutrition</h3>
 					<p>Our specialized dinosaur formula food and treats are packed with the neccessary nutrients to have your pet grow big and strong!</p>
 					<div>
 						<table class="storeItemTables" id="storeNutritionTable">
@@ -358,7 +359,7 @@
 
 		  <div class="tab-pane" id="toys">
 		  	<div class="col-md-12">
-		  		<h1>Toys</h1>
+		  		<h3>Toys</h3>
 		  		<p>Don't forget to purchase some toys for your new pet to play with to keep them happy and healthy.</p>
 		  		<div>
 		  			<table class="storeItemTables" id="storeToysTable">
