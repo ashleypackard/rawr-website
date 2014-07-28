@@ -627,6 +627,7 @@
 						</tr>
 					</tbody>
 				</table>
+				<button type="submit" onClick="CheckoutForm()">Checkout</button>
 			</div>
 		</div>
 	</div>

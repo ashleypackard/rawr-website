@@ -248,3 +248,19 @@ function goToStore()
 {
 	$("#mainSection").load("purchase.php");
 };
+
+function CheckoutForm()
+{
+	//check database
+	$("#mainSection").load("checkout.php");
+}
+
+function hideshipping()
+{
+	$('#shipping').hide();
+}
+
+function cancelCheckout()
+{
+
+}
