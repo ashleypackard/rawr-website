@@ -8,7 +8,7 @@
 </div>
 
 <div class="row">
-	<div class="col-md-8">
+	<div id="bigDiv" class="col-md-8">
 		<!-- Nav tabs -->
 		<ul class="nav nav-tabs" role="tablist">
 		  <li class="active"><a href="#adoption" role="tab" data-toggle="tab">Adoption</a></li>
@@ -487,8 +487,8 @@
 		  					</tr>
 
 		  					<tr class="tableLowerRow">
-		  						<td><img src="../assets/images/store/bedding/name-bed.png" alt="Soft Bed w/Customized Name"/></td>
-		  						<td><img src="../assets/images/store/bedding/largeCustomBed.png" alt="Wooden Bed w/Customized Name"/></td>
+		  						<td><img src="../assets/images/store/bedding/name-bed.png" alt="Soft Bed w-Customized Name"/></td>
+		  						<td><img src="../assets/images/store/bedding/largeCustomBed.png" alt="Wooden Bed w-Customized Name"/></td>
 		  						<td><img src="../assets/images/store/bedding/bed-couch.png" alt="Couch Bed"/></td>
 		  						<td><img src="../assets/images/store/bedding/luxury-bed.png" alt="Luxury Bed"/></td>	
 		  					</tr>
@@ -613,21 +613,22 @@
 				<h2 class="storeLabel">Your Basket</h2>
 			<div>
 				<p id="noItems">There are no items in your basket.<p>
-				<table id="storeBasket">
+				<table id="storeBasket" name="storeBasket">
 					<thead>
 						<th class="basketHeaders">Item</th>
+						<th class="basketHeaders">Category</th>
 						<th class="basketHeaders">Price</th>
 						<th class="basketHeaders">Quantity</th>
 						<th class="basketHeaders">Subtotal</th>
 					</thead>
-					<tbody>
+					<tbody id="basketBody">
 						<tr id="totalCol">
 							<td colspan="3">Total:</td>
 							<td id="totalPrice">$0.00</td>
 						</tr>
 					</tbody>
 				</table>
-				<button type="submit" onClick="CheckoutForm()">Checkout</button>
+				<button id="btnCheckout" type="submit" onClick="CheckoutForm()" style="display: none;">Checkout</button>
 			</div>
 		</div>
 	</div>

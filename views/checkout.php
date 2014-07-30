@@ -1,7 +1,6 @@
-<div class="col-md-12">
+<div class="col-md-10">
 	<h1>Billing Information</h1><br/><hr>
 	<!--list items in basket-->
-	
 	<table id="billing">
 		<tr>
 			<td>First Name: </td>
@@ -23,13 +22,14 @@
 		</tr>
 		<tr>
 			<td>Zip: </td>
-			<td><input type="text" id="zip"></input></td>
+			<td><input type="text" id="bill_zip"></input></td>
 		</tr>
-	</table><br/>
-	<h1>Shipping Information</h1><hr>
+	</table><br/>	
 	<input type="checkbox" name="shipping" id="ship_and_bill" onClick="hideshipping()"></input> Check this box if your shipping information and your billing information are the same.<br/>
+	<div id="Shipping">
+	<h1>Shipping Information</h1><hr>
 	
-	<table id="Shipping">
+	<table>
 		<tr>
 			<td>First Name: </td>
 			<td><input type="text" id="ship_fname"></input></td>
@@ -44,32 +44,33 @@
 		</tr>
 		<tr>
 			<td>Zip: </td>
-			<td><input type="text" id="zip"></input></td>
+			<td><input type="text" id="ship_zip"></input></td>
 		</tr>
 	</table><br>
-	
+	</div>
 	<h1>Payment Information</h1><hr>
 	<table id="payment">
 		<tr>
-			<td>Card Type: <select>
-					<option value= "Visa">Visa</option>
+			<td>Card Type:</td><td><select>
+					<option value = "Visa">Visa</option>
 					<option value = "Mastercard">Mastercard</option>
 					<option value = "AmericanExp">American Express</option>
 					<option value = "Discover">Discover Card</option>
 				</select>
 			</td>
-			<td>Name: <input type="text" id="card_name"></input></td>
+			<td>Name:</td><td><input type="text" id="card_name"></input></td>
 		</tr>
 		<tr>
-			<td>Card #: <input type="text" id="card_num"></input></td>
-			<td>Security #: <input type="text" id="sec_num"></input></td>
+			<td>Card #:</td><td><input type="text" id="card_num"></input></td>
+			<td>Security #:</td><td><input type="text" id="sec_num"></input></td>
 		</tr>
 		<tr>
-			<td>Expiration Date: <input type="text" id="exp"></input></td>
+			<td>Expiration Date:</td><td><input type="text" id="exp"></input></td>
 		</tr>
 		<tr>
 			<td><button type="submit" onClick="validateCheckout()">Submit</button></td>
 			<td><button type="cancel" onClick="cancelCheckout()">Cancel</button></td>
 		</tr>
 	</table>
+	<div id="alert_placeholder"></div>
 </div>
