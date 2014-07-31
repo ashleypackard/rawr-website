@@ -13,17 +13,17 @@
 			<td>Street: </td>
 			<td><input type="text" id="bill_street"></input></td>
 			<td>Telephone: </td>
-			<td><input type="text" id="bill_phone"></input></td>
+			<td><input type="text" id="bill_phone" placeholder="xxxxxxxxxx" maxlength="10"></input></td>
 		</tr>
 		<tr>
 			<td>State: </td>
-			<td><input type="text" id="bill_state"></input></td>
+			<td><input type="text" id="bill_state" maxlength="2"></input></td>
 			<td>Email: </td>
 			<td><input type="text" id="bill_email"></input></td>
 		</tr>
 		<tr>
 			<td>Zip: </td>
-			<td><input type="text" id="bill_zip"></input></td>
+			<td><input type="text" id="bill_zip" maxlength="5"></input></td>
 		</tr>
 	</table><br/>	
 	<input type="checkbox" name="shipping" id="ship_and_bill" onClick="hideshipping()"></input> Check this box if your shipping information and your billing information are the same.<br/>
@@ -41,11 +41,11 @@
 			<td>Street: </td>
 			<td><input type="text" id="ship_street"></input></td>
 			<td>Telephone: </td>
-			<td><input type="text" id="ship_phone"></input></td>
+			<td><input type="text" id="ship_phone" placeholder="xxxxxxxxxx" maxlength="10"></input></td>
 		</tr>
 		<tr>
 			<td>Zip: </td>
-			<td><input type="text" id="ship_zip"></input></td>
+			<td><input type="text" id="ship_zip" maxlength="5"></input></td>
 		</tr>
 	</table><br>
 	</div>
@@ -64,11 +64,11 @@
 			<td>Name:</td><td><input type="text" id="card_name"></input></td>
 		</tr>
 		<tr>
-			<td>Card #:</td><td><input type="text" id="card_num"></input></td>
-			<td>Security #:</td><td><input type="text" id="sec_num"></input></td>
+			<td>Card #:</td><td><input type="text" id="card_num" placeholder="xxxxxxxxxxxxxxxx" maxlength="16"></input></td>
+			<td>Security #:</td><td><input type="text" id="sec_num" placeholder="xxxxxxxxx" maxlength="9"></input></td>
 		</tr>
 		<tr>
-			<td>Expiration Date:</td><td><input type="text" id="exp"></input></td>
+			<td>Expiration Date:</td><td><input type="text" id="exp" placeholder="xx/xx" maxlength="5"></input></td>
 		</tr>
 		<tr id="formButtons">
 			<td colspan="2"><button type="submit" onClick="validateCheckout()">Submit</button></td>

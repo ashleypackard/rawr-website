@@ -269,6 +269,25 @@ function cancelCheckout()
 	if (confirm("Are you sure you want to cancel your order?"))
 	{
 		$("#mainSection").load("purchase.php");
+			
+		setTimeout(function(){
+		$.ajax({ 
+					url: '../assets/scripts/getQuantities.php',
+	        data: $(this).serialize(),
+	        type: 'post',
+	        dataType: 'json',
+	        success: function(data) {
+	            if(data.success)
+	            {
+	            	parseTable(data['tables']);
+	            }
+	        },
+	        error: function(){
+	        	console.log("Error! Could not connect to database.");
+	        }
+			});
+		}, 25);
+			
 	}
 	else
 	{
@@ -370,7 +389,7 @@ function validateCheckout()
 	
 	//Output thank you and reload store
 	var message = "Thank you for placing your order!";
-	$('#alert_placeholder').html('<div class="alert alert-success">' + message + '</div>');
+	//$('#alert_placeholder').html('<div class="alert alert-success">' + message + '</div>');
 	//var table = "<table>" + $("#storeBasket").html() + "</table>";
 	var category, item_name, itemCount;
 	
@@ -448,4 +467,6 @@ function validateCheckout()
 	"myrows": myRows
 	};
 	
+	alert("Thank you for your order!");
+	$("#mainSection").load("home_text.php");
 }
