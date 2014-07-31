@@ -4,7 +4,7 @@
 
 	// Get Quantities for all tables
 	$adoption_query = mysqli_query($con,"SELECT item_name, stock_quantity FROM `adoption`");
-	$eggKits_query = mysqli_query($con,"SELECT item_name, stock_quantity FROM `egg-kits`");
+	$eggKits_query = mysqli_query($con,"SELECT item_name, stock_quantity FROM `eggkits`");
 	$accessories_query = mysqli_query($con,"SELECT item_name, stock_quantity FROM `accessories`");
 	$nutrition_query = mysqli_query($con,"SELECT item_name, stock_quantity FROM `nutrition`");
 	$toys_query = mysqli_query($con,"SELECT item_name, stock_quantity FROM `toys`");

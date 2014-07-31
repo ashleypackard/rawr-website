@@ -8,7 +8,7 @@
 </div>
 
 <div class="row">
-	<div id="bigDiv" class="col-md-8">
+	<div id="bigDiv" class="col-md-7">
 		<!-- Nav tabs -->
 		<ul class="nav nav-tabs" role="tablist">
 		  <li class="active"><a href="#adoption" role="tab" data-toggle="tab">Adoption</a></li>
@@ -113,10 +113,10 @@
 									<td>Price: $300.00</td>
 								</tr>
 								<tr>
-									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Barosaurus-Egg-Kit" id="eggKits-325" /></td>
-									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Diceratops-Egg-Kit" id="eggKits-275" /></td>
-									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Erketu-Egg-Kit" id="eggKits-282" /></td>
-									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Giraffatitan-Egg-Kit" id="eggKits-300" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Barosaurus-Egg-Kit" id="eggkits-325" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Diceratops-Egg-Kit" id="eggkits-275" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Erketu-Egg-Kit" id="eggkits-282" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Giraffatitan-Egg-Kit" id="eggkits-300" /></td>
 								</tr>
 								<tr class="stock bottomLine">
 		  						<td><p id="barosaurus-egg-kit-stock" class="updateStockPile"></p></td>
@@ -141,9 +141,9 @@
 									<td>Price: $389.00</td>
 								</tr>
 								<tr>
-									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Laosaurus-Egg-Kit" id="eggKits-410" /></td>
-									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Manidens-Egg-Kit" id="eggKits-299" /></td>
-									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Minmi-Egg-Kit" id="eggKits-389" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Laosaurus-Egg-Kit" id="eggkits-410" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Manidens-Egg-Kit" id="eggkits-299" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Minmi-Egg-Kit" id="eggkits-389" /></td>
 								</tr>
 								<tr class="stock">
 		  						<td><p id="laosaurus-egg-kit-stock" class="updateStockPile"></p></td>
@@ -282,13 +282,13 @@
 								</tr>
 								<tr>
 									<td>Price: $10.50</td>
-									<td>Price: $5.99</td>
+									<td>Price: $5.95</td>
 									<td>Price: $20.99</td>
 									<td>Price: $25.99</td>
 								</tr>
 								<tr class="quantityBoxes">
 									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Fake-Chocolate-Minis" id="nutrition-10.50" /></td>
-									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Fake-Chocolate-Dinosaur" id="nutrition1-5.99" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Fake-Chocolate-Dinosaur" id="nutrition-5.95" /></td>
 									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Supplements" id="nutrition-20.99" /></td>
 									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Vitamin-C-Tablets" id="nutrition-25.99" /></td>
 								</tr>
@@ -385,7 +385,7 @@
 								<tr class="quantityBoxes">
 									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Chew-Rex" id="toys-9.99" /></td>
 									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Blue-Chew-Vegisaurus" id="toys-10.99" /></td>
-									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Green-Chew-Vegisaurus" id="toys1-10.99" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Green-Chew-Vegisaurus" id="toys-11.25" /></td>
 									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Throwing-Balls" id="toys-5.99" /></td>
 								</tr>
 								<tr class="stock bottomLine">
@@ -409,15 +409,15 @@
 								</tr>
 								<tr>
 									<td>Price: $15.99</td>
-									<td>Price: $15.99</td>
-									<td>Price: $15.99</td>
-									<td>Price: $15.99</td>
+									<td>Price: $16.25</td>
+									<td>Price: $16.50</td>
+									<td>Price: $16.75</td>
 								</tr>
 								<tr class="quantityBoxes">
 									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Triceretops-Pal" id="toys-15.99" /></td>
-									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Spikosaurus-Pal" id="toys1-15.99" /></td>
-									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Flying-Pal" id="toys2-15.99" /></td>
-									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Green-Long-Neck-Pal" id="toys3-15.99" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Spikosaurus-Pal" id="toys-16.25" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Flying-Pal" id="toys-16.50" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Green-Long-Neck-Pal" id="toys-16.75" /></td>
 								</tr>
 								<tr class="stock bottomLine">
 		  						<td><p id="triceretops-pal-stock" class="updateStockPile"></p></td>
@@ -433,10 +433,10 @@
 									<td>Rex Pal</td>
 								</tr>
 								<tr>
-									<td>Price: $15.99</td>
+									<td>Price: $17.00</td>
 								</tr>
 		  					<tr class="quantityBoxes">
-									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Rex-Pal" id="toys4-15.99" /></td>
+									<td><input type="number" min="0" value="0" max="30" class="addToBasket" name="Rex-Pal" id="toys-17.00" /></td>
 								</tr>
 								<tr class="stock">
 		  						<td><p id="rex-pal-stock" class="updateStockPile"></p></td>
@@ -608,7 +608,7 @@
 		</div>
 	</div>
 
-	<div class="col-md-4">
+	<div class="col-md-5">
 		<div id="checkoutLane">
 				<h2 class="storeLabel">Your Basket</h2>
 			<div>

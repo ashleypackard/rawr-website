@@ -1,4 +1,5 @@
 <div class="col-md-10">
+	<div id="alert_placeholder"></div>
 	<h1>Billing Information</h1><br/><hr>
 	<!--list items in basket-->
 	<table id="billing">
@@ -51,7 +52,9 @@
 	<h1>Payment Information</h1><hr>
 	<table id="payment">
 		<tr>
-			<td>Card Type:</td><td><select>
+			<td>Card Type:</td>
+			<td id="cardType">
+				<select>
 					<option value = "Visa">Visa</option>
 					<option value = "Mastercard">Mastercard</option>
 					<option value = "AmericanExp">American Express</option>
@@ -67,10 +70,9 @@
 		<tr>
 			<td>Expiration Date:</td><td><input type="text" id="exp"></input></td>
 		</tr>
-		<tr>
-			<td><button type="submit" onClick="validateCheckout()">Submit</button></td>
-			<td><button type="cancel" onClick="cancelCheckout()">Cancel</button></td>
+		<tr id="formButtons">
+			<td colspan="2"><button type="submit" onClick="validateCheckout()">Submit</button></td>
+			<td colspan="2"><button type="cancel" onClick="cancelCheckout()">Cancel</button></td>
 		</tr>
 	</table>
-	<div id="alert_placeholder"></div>
 </div>
