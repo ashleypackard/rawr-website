@@ -20,80 +20,84 @@ $(document).ready(function() {
   	// get variables for updating the stock tags
   	var stockTag = getStock(nameOfItem);
   	var quantity = $(this).val();
-  	var stock = $(this).attr('max') - quantity;
+  	var stock = $(this).attr('max');
 
   	if(itemCount > 0)
   	{
-  		$("#noItems").hide();
-  		$("#storeBasket").show();
-		$("#btnCheckout").show();
-
-  		// replace the -'s with spaces throughout the name
-  		nameOfItem = nameOfItem.replace(/-/g, ' ');
-		
-  		var itemID = $(this).attr('id');
-		var category = itemID.substr(0, itemID.indexOf("-"));
-		
-  		
-		var money = itemID.substr(itemID.indexOf("-") + 1);
-  		var total =  (parseFloat(money) * parseFloat(quantity)).toFixed(2);
-  		var found = false;	
-			
-		if(quantity > stock){
-		alert("Cannot get more items than is in stock");
-		$(this).val(0);
-		}	
-			
-  		// if the item we just changed was set to zero
-  		if(quantity === "0")
+  		if(quantity > parseInt(stock))
   		{
-		
-  			// update the stock pile
- 				updateStockTags(stock, stockTag);
+				alert("You tried to purchase " + quantity + " items when there are only " + stock + " left in stock.");
+				$(this).val(0);
+			}	
+			else
+			{
+				$("#noItems").hide();
+	  		$("#storeBasket").show();
+				$("#btnCheckout").show();
 
-  			// cycle through all the item in the shopping cart to find the correct item to remove
-  			$('#storeBasket .removable').each(function()
-				{
-					if($(this).children(":first-child").html() === nameOfItem)
-					{	
-						$(this).remove();
+	  		// replace the -'s with spaces throughout the name
+	  		nameOfItem = nameOfItem.replace(/-/g, ' ');
+			
+	  		var itemID = $(this).attr('id');
+				var category = itemID.substr(0, itemID.indexOf("-"));
+			
+	  		
+				var money = itemID.substr(itemID.indexOf("-") + 1);
+	  		var total =  (parseFloat(money) * parseFloat(quantity)).toFixed(2);
+	  		var found = false;	
+				
+	  		// if the item we just changed was set to zero
+	  		if(quantity === "0")
+	  		{
+			
+	  			// update the stock pile
+	 				updateStockTags(stock, quantity, stockTag);
+
+	  			// cycle through all the item in the shopping cart to find the correct item to remove
+	  			$('#storeBasket .removable').each(function()
+					{
+						if($(this).children(":first-child").html() === nameOfItem)
+						{	
+							$(this).remove();
+						}
+					});
+	  		}
+				else if (stock > 0) //otherwise we want to add the item to the shopping cart
+				{   
+					// check to see wheather the item is already in the shopping cart
+					// if so then increment quantity and total otherwise add whole row
+					$('#storeBasket .itemname').each(function()
+					{
+					 	if(($(this).html()) === nameOfItem)
+					 	{
+					 		$(this).next().next().next().html(quantity);
+					 		$(this).next().next().next().next().html("$" + total);
+					 		found = true;
+					 	}
+					});
+					if(found != true)
+					{
+						var htmltoadd = "<tr class='removable'><td class='itemname'>" + nameOfItem + "</td><td>" + category + "</td><td>$" + money + 
+						 "</td><td>" + quantity + "</td><td class='itemincart'>$" + total + "</td></tr>";
+						
+						$("#storeBasket tbody").prepend(htmltoadd);
 					}
-				});
-  		}
-			else if (stock > 0) //otherwise we want to add the item to the shopping cart
-			{   
-				// check to see wheather the item is already in the shopping cart
-				// if so then increment quantity and total otherwise add whole row
-				$('#storeBasket .itemname').each(function()
-				{
-				 	if(($(this).html()) === nameOfItem)
-				 	{
-				 		$(this).next().next().html(quantity);
-				 		$(this).next().next().next().html("$" + total);
-				 		found = true;
-				 	}
-				});
-				if(found != true)
-				{
-					var htmltoadd = "<tr class='removable'><td class='itemname'>" + nameOfItem + "</td><td>" + category + "</td><td>$" + money + 
-					 "</td><td>" + quantity + "</td><td class='itemincart'>$" + total + "</td></tr>";
-					
-					$("#storeBasket tbody").prepend(htmltoadd);
 				}
+
+	  		// update the total
+	  		var subtotal = calctotal();
+	 			$("#totalPrice").html("$" + subtotal);
+
+	 			// update the stock pile
+	 			updateStockTags(stock, quantity, stockTag);
 			}
-
-  		// update the total
-  		var subtotal = calctotal();
- 			$("#totalPrice").html("$" + subtotal);
-
- 			// update the stock pile
- 			updateStockTags(stock, stockTag);
+  
 			
  		}	
 		else // no items in cart
   	{
   		// update the stock pile
- 			updateStockTags(stock, stockTag);
+ 			updateStockTags(stock, 0, stockTag);
 			$("#btnCheckout").hide();
 
 			$("#noItems").show();
@@ -164,9 +168,10 @@ function parseTable(allTables)
 }
 
 // function for updating Stock tags
-function updateStockTags(stock, stockTag)
+function updateStockTags(stock, quantity, stockTag)
 {
 	// update the stock pile
+		stock = stock - quantity;
  			if(stock == 0)
  			{
 				$(stockTag).removeClass("inStock");
@@ -204,7 +209,7 @@ function getStock(nameToFind)
 	return result;
 };
 
-// function for cycling through quantitiy boxes to hide the appropriate one
+// function for cycling through quantity boxes to hide the appropriate one
 function disableQuantityBox(nameToFind)
 {
 	$('.addToBasket').each(function()
@@ -217,7 +222,7 @@ function disableQuantityBox(nameToFind)
 
 };
 
-// function for cycling through quantitiy boxes to set max value
+// function for cycling through quantity boxes to set max value
 function setMaxForQuantityBox(nameToFind, value)
 {
 	$('.addToBasket').each(function()
