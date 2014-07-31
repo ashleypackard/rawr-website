@@ -10,7 +10,7 @@ $(document).ready(function() {
    // when the textboxes change value run this function  
 	$(".addToBasket").change(function() 
 	{
-  	
+  	 
   	// keep track of number of item
   	var itemCount = itemCounter();
 
@@ -35,14 +35,19 @@ $(document).ready(function() {
 		var category = itemID.substr(0, itemID.indexOf("-"));
 		
   		
-			var money = itemID.substr(itemID.indexOf("-") + 1);
+		var money = itemID.substr(itemID.indexOf("-") + 1);
   		var total =  (parseFloat(money) * parseFloat(quantity)).toFixed(2);
-  		var found = false;
-
+  		var found = false;	
+			
+		if(quantity > stock){
+		alert("Cannot get more items than is in stock");
+		$(this).val(0);
+		}	
+			
   		// if the item we just changed was set to zero
   		if(quantity === "0")
   		{
-
+		
   			// update the stock pile
  				updateStockTags(stock, stockTag);
 
@@ -55,8 +60,8 @@ $(document).ready(function() {
 					}
 				});
   		}
-			else //otherwise we want to add the item to the shopping cart
-			{
+			else if (stock > 0) //otherwise we want to add the item to the shopping cart
+			{   
 				// check to see wheather the item is already in the shopping cart
 				// if so then increment quantity and total otherwise add whole row
 				$('#storeBasket .itemname').each(function()
@@ -83,8 +88,8 @@ $(document).ready(function() {
 
  			// update the stock pile
  			updateStockTags(stock, stockTag);
- 			
- 		}
+			
+ 		}	
 		else // no items in cart
   	{
   		// update the stock pile
@@ -134,24 +139,24 @@ function parseTable(allTables)
     
     // prep key for use later
     key = key.replace(/\s/g,'-');
-
+	
     // new variable for more manipulating
     var manipulatedKey = key;
     manipulatedKey = manipulatedKey.toLowerCase();
     manipulatedKey = manipulatedKey + "-stock";
-
+	
     if(value == 0)
     {
-    	$('#'+manipulatedKey).attr('class', 'outOfStock');
-			$('#'+manipulatedKey).html('Out of Stock!');
-
-			// search through all items with class 'addToBasket' and find the input box thathas matching name and hide
+		$('#'+manipulatedKey).addClass("outOfStock");
+		$('#'+manipulatedKey).text('Out of Stock!');
+		
+			// search through all items with class 'addToBasket' and find the input box that's matching name and hide
 			disableQuantityBox(key);
     }
     else
     {
-    	setMaxForQuantityBox(key, value);
-    	$('#'+manipulatedKey).html(value + ' in stock');
+	    setMaxForQuantityBox(key, value); 
+    	$('#'+manipulatedKey).text(value + ' in stock');
     }
   
 	});
@@ -164,12 +169,16 @@ function updateStockTags(stock, stockTag)
 	// update the stock pile
  			if(stock == 0)
  			{
-				stockTag.attr('class', 'outOfStock');
-				stockTag.html('Out of Stock!');
+				$(stockTag).removeClass("inStock");
+				$(stockTag).addClass("outOfStock");
+				$(stockTag).text("Out of Stock!");
  			}
- 			else
+ 			else if(stock > 0)
  			{
- 				stockTag.html(stock + " in stock");
+			$(stockTag).removeClass("inStock");
+			$(stockTag).removeClass("outOfStock");
+			$(stockTag).addClass("inStock");
+            $(stockTag).text(stock + " in stock");
  			}
 }
 
