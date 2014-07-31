@@ -26,11 +26,14 @@ $(document).ready(function() {
   	{
   		$("#noItems").hide();
   		$("#storeBasket").show();
+		$("#btnCheckout").show();
 
   		// replace the -'s with spaces throughout the name
   		nameOfItem = nameOfItem.replace(/-/g, ' ');
-
+		
   		var itemID = $(this).attr('id');
+		var category = itemID.substr(0, itemID.indexOf("-"));
+		
   		
 			var money = itemID.substr(itemID.indexOf("-") + 1);
   		var total =  (parseFloat(money) * parseFloat(quantity)).toFixed(2);
@@ -65,13 +68,12 @@ $(document).ready(function() {
 				 		found = true;
 				 	}
 				});
-
 				if(found != true)
 				{
-					var htmltoadd = "<tr class='removable'><td class='itemname'>" + nameOfItem + "</td><td>$" + money + 
+					var htmltoadd = "<tr class='removable'><td class='itemname'>" + nameOfItem + "</td><td>" + category + "</td><td>$" + money + 
 					 "</td><td>" + quantity + "</td><td class='itemincart'>$" + total + "</td></tr>";
-
-	  			$("#storeBasket tbody").prepend(htmltoadd);
+					
+					$("#storeBasket tbody").prepend(htmltoadd);
 				}
 			}
 
@@ -87,6 +89,7 @@ $(document).ready(function() {
   	{
   		// update the stock pile
  			updateStockTags(stock, stockTag);
+			$("#btnCheckout").hide();
 
 			$("#noItems").show();
 
@@ -248,3 +251,209 @@ function goToStore()
 {
 	$("#mainSection").load("purchase.php");
 };
+
+function CheckoutForm()
+{
+	//check database
+	$('#bigDiv').load("checkout.php");
+	$('#btnCheckout').toggle();
+}
+
+function hideshipping()
+{
+	$('#Shipping').toggle();
+}
+
+function cancelCheckout()
+{
+	if (confirm("Are you sure you want to cancel your order? You will lose all your items."))
+	{
+		$("#mainSection").load("purchase.php");
+			
+		setTimeout(function(){
+		$.ajax({ 
+					url: '../assets/scripts/getQuantities.php',
+	        data: $(this).serialize(),
+	        type: 'post',
+	        dataType: 'json',
+	        success: function(data) {
+	            if(data.success)
+	            {
+	            	parseTable(data['tables']);
+	            }
+	        },
+	        error: function(){
+	        	console.log("Error! Could not connect to database.");
+	        }
+			});
+		}, 25);
+			
+	}
+	else
+	{
+		
+	}
+}
+
+function validateCheckout()
+{
+	var b_fname = $("#bill_fname").val();
+	var b_lname = $("#bill_lname").val();
+	var b_street = $("#bill_street").val();
+	var b_phone = $("#bill_phone").val();
+	var b_state = $("#bill_state").val();
+	var b_email = $("#bill_email").val();
+	var b_zip = $("#bill_zip").val();
+	var b_zip_num = isNaN(b_zip);
+	var b_phone_num = isNaN(b_phone);
+	
+	// Check to make sure nothing is left blank
+	if (b_fname == "" || b_lname == "" || b_street == "" || b_phone == "" || b_state == "" || b_email == "" || b_zip == "")
+	{
+		var message = "Error! All fields in the billing section must be filled out.";
+		$('#alert_placeholder').html('<div class="alert alert-danger">' + message + '</div>');
+		return;
+	}
+	else if(b_zip_num == true)
+	{
+		var message = "Error! Bad zip code in the billing section.";
+		$('#alert_placeholder').html('<div class="alert alert-danger">' + message + '</div>');
+		return;
+	}
+	else if(b_phone_num == true)
+	{
+		var message = "Error! Bad phone number in your billing section.";
+		$('#alert_placeholder').html('<div class="alert alert-danger">' + message + '</div>');
+		return;
+	}
+	
+	// See  if billing and shipping are the same information, if not validate
+	if (!$("#ship_and_bill").prop('checked')) {
+		var s_fname = $("#ship_fname").val();
+		var s_lname = $("#ship_lname").val();
+		var s_street = $("#ship_street").val();
+		var s_phone = $("#ship_phone").val();
+		var s_state = $("#ship_state").val();
+		var s_email = $("#ship_email").val();
+		var s_zip = $("#ship_zip").val();
+		var phone_num = isNaN(s_phone);
+		var zip_num = isNaN(s_zip);
+		
+		if (s_fname == "" || s_lname == "" || s_street == "" || s_phone == "" || s_state == "" || s_email == "" || s_zip == "")
+		{
+			var message = "Error! All fields in the shipping section must be filled out.";
+			$('#alert_placeholder').html('<div class="alert alert-danger">' + message + '</div>');
+			return;
+		}
+		else if(phone_num == true)
+		{
+			var message = "Error! Bad phone number in your shipping information.";
+			$('#alert_placeholder').html('<div class="alert alert-danger">' + message + '</div>');
+			return;
+		}
+		else if(zip_num == true)
+		{
+			var message = "Error! Bad zip code in the shipping section.";
+			$('#alert_placeholder').html('<div class="alert alert-danger">' + message + '</div>');
+			return;
+		}
+	}
+	
+	// Check Payment option
+	var c_name = $("#card_name").val();
+	var c_num = $("#card_num").val();
+	var c_sec = $("#sec_num").val();
+	var c_exp = $("#exp").val();
+	var exp_num = isNaN(c_exp);
+	var sec_num = isNaN(c_sec);
+	var cnum_num = isNaN(c_num);
+	
+	if(c_name == "" || c_num == "" || c_sec == "" || c_exp == "") 
+	{
+		var message = "Error! All payment fields must be filled out.";
+		$('#alert_placeholder').html('<div class="alert alert-danger">' + message + '</div>');
+		return;
+	}
+	else if(sec_num == true)
+	{
+		var message = "Error! Bad credit card security number.";
+		$('#alert_placeholder').html('<div class="alert alert-danger">' + message + '</div>');
+		return;
+	}
+	else if(cnum_num == true)
+	{
+		var message = "Error! Bad credit card number.";
+		$('#alert_placeholder').html('<div class="alert alert-danger">' + message + '</div>');
+		return;
+	}
+	
+	//Output thank you and reload store
+	var message = "Thank you for placing your order!";
+	//$('#alert_placeholder').html('<div class="alert alert-success">' + message + '</div>');
+	//var table = "<table>" + $("#storeBasket").html() + "</table>";
+	var category, item_name, itemCount;
+	
+	var myRows = [];
+	var headersText = [];
+	var $headers = $("th");
+
+	// Loop through grabbing everything
+	var $rows = $("#basketBody tr");
+	var totalRows = $rows.length;
+	for (var rowIndex = 0; rowIndex < totalRows; ++rowIndex) {
+		var currentRow = $($rows[rowIndex]);
+		var $cells = currentRow.find("td");
+		myRows[rowIndex] = {};
+		var totalCells = $cells.length;
+
+		for (var cellIndex = 0; cellIndex < totalCells; ++cellIndex) {
+			var currentCell = $($cells[cellIndex]);
+			// Set the header text
+			if(headersText[cellIndex] === undefined) {
+				headersText[cellIndex] = $($headers[cellIndex]).text();
+			}
+			// Update the row object with the header/cell combo
+			myRows[rowIndex][headersText[cellIndex]] = currentCell.text();
+			if (headersText[cellIndex] == "Item")
+			{
+				item_name = currentCell.text();
+			}
+			else if (headersText[cellIndex] == "Category")
+			{
+				category = currentCell.text();
+			}
+			else if (headersText[cellIndex] == "Quantity")
+			{
+				itemCount = currentCell.text();
+			}
+			else if (currentCell.text() == "Total:")
+			{
+
+			}
+
+		}    
+
+		$.ajax({ 
+			url: '../assets/scripts/checkoutUpdate.php',
+			data: "category="+category+"&item_name="+item_name+"&quantity="+itemCount,
+			type: 'POST',
+			success: function(data) {
+			if(data.success)
+			{
+
+			}
+			},
+			error: function(){
+				console.log("Error! Could not connect to database.");
+			}
+		});
+	}
+
+	// Let's put this in the object like you want and convert to JSON (Note: jQuery will also do this for you on the Ajax request)
+	var myObj = {
+	"myrows": myRows
+	};
+	
+	alert("Thank you for your order!");
+	$("#mainSection").load("home_text.php");
+}

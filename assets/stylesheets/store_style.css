@@ -107,3 +107,13 @@ table img
 	color: maroon;
 	font-weight: bold;
 }
+
+#cardType
+{
+	text-align: left;
+}
+
+#formButtons
+{
+	text-align: center;
+}
