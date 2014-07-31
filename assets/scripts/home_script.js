@@ -34,7 +34,12 @@ $(document).ready(function() {
   		
 		var money = itemID.substr(itemID.indexOf("-") + 1);
   		var total =  (parseFloat(money) * parseFloat(quantity)).toFixed(2);
-  		var found = false;
+  		var found = false;	
+			
+		if(quantity > stock){
+		alert("Cannot get more items than is in stock");
+		$(this).val(0);
+		}	
 			
   		// if the item we just changed was set to zero
   		if(quantity === "0")
@@ -53,7 +58,7 @@ $(document).ready(function() {
 				});
   		}
 			else if (stock > 0) //otherwise we want to add the item to the shopping cart
-			{
+			{   
 				// check to see wheather the item is already in the shopping cart
 				// if so then increment quantity and total otherwise add whole row
 				$('#storeBasket .itemname').each(function()
@@ -163,7 +168,7 @@ function updateStockTags(stock, stockTag)
  			{
 				$(stockTag).removeClass("inStock");
 				$(stockTag).addClass("outOfStock");
-				$(stockTag).text("Out of Stock!!!!");
+				$(stockTag).text("Out of Stock!");
  			}
  			else if(stock > 0)
  			{
