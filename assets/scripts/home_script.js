@@ -266,7 +266,7 @@ function hideshipping()
 
 function cancelCheckout()
 {
-	if (confirm("Are you sure you want to cancel your order?"))
+	if (confirm("Are you sure you want to cancel your order? You will lose all your items."))
 	{
 		$("#mainSection").load("purchase.php");
 			
@@ -421,19 +421,6 @@ function validateCheckout()
 			else if (headersText[cellIndex] == "Category")
 			{
 				category = currentCell.text();
-
-				if (category.substr(0,4) == "toys")
-				{
-				category = "toys";
-				}
-				else if (category.substring(0,9) == "nutrition")
-				{
-				category = "nutrition";
-				}
-				else if (category.substr(0,3) == "egg")
-				{
-				category = "egg-kits";
-				}
 			}
 			else if (headersText[cellIndex] == "Quantity")
 			{
