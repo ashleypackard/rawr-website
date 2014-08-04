@@ -28,7 +28,6 @@
 			Our hatcheries hatch dinosaurs with love and care. Only the best equipment is used to bring fourth their tiny delicate lives.
 			Want to hatch them yourself? Have no fear, we can provide your very own hatching kit so you can watch your dinosaur break through
 			its shell with your very own eyes. </p>
-			<a href="www.someurl.com" class="" id="link">Read more about hatching your own dinosaur here!</a>
 		</div>
 		<div id ="center" class="col-md-5">
 				<img src="../assets/images/philo/baby.jpg" alt="baby"/>

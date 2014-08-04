@@ -114,21 +114,7 @@ $(document).ready(function() {
 
 	$('#purchase').click(function(){
 
-				$.ajax({ 
-					url: '../assets/scripts/getQuantities.php',
-	        data: $(this).serialize(),
-	        type: 'post',
-	        dataType: 'json',
-	        success: function(data) {
-	            if(data.success)
-	            {
-	            	parseTable(data['tables']);
-	            }
-	        },
-	        error: function(){
-	        	console.log("Error! Could not connect to database.");
-	        }
-			});
+				callAjax();
 	});
 
 
@@ -264,6 +250,7 @@ function calctotal()
 function goToStore()
 {
 	$("#mainSection").load("purchase.php");
+	callAjax();
 };
 
 function CheckoutForm()
@@ -284,23 +271,7 @@ function cancelCheckout()
 	{
 		$("#mainSection").load("purchase.php");
 			
-		setTimeout(function(){
-		$.ajax({ 
-					url: '../assets/scripts/getQuantities.php',
-	        data: $(this).serialize(),
-	        type: 'post',
-	        dataType: 'json',
-	        success: function(data) {
-	            if(data.success)
-	            {
-	            	parseTable(data['tables']);
-	            }
-	        },
-	        error: function(){
-	        	console.log("Error! Could not connect to database.");
-	        }
-			});
-		}, 25);
+		callAjax();
 			
 	}
 	else
@@ -470,4 +441,26 @@ function validateCheckout()
 	
 	alert("Thank you for your order!");
 	$("#mainSection").load("home_text.php");
+}
+
+
+function callAjax()
+{
+	setTimeout(function(){
+		$.ajax({ 
+					url: '../assets/scripts/getQuantities.php',
+	        data: $(this).serialize(),
+	        type: 'post',
+	        dataType: 'json',
+	        success: function(data) {
+	            if(data.success)
+	            {
+	            	parseTable(data['tables']);
+	            }
+	        },
+	        error: function(){
+	        	console.log("Error! Could not connect to database.");
+	        }
+			});
+		}, 25);
 }
